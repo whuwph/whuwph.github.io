@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>  
+<title>{$tptt.title} - {:config('web.WEB_AUT')}</title>
+<meta name="keywords" content="{$tptt.keywords}">
+<meta name="description" content="{$tptt.description}">
+{include file="index/header"}
+<link rel="stylesheet" href="__HOME__/css/thread.css">
+<link rel="stylesheet" href="__HOME__/css/right.css">
+<link rel="stylesheet" href="__ADMIN__/wangEditor/css/wangEditor.min.css">
+<script type="text/javascript" src="__ADMIN__/wangEditor/js/wangEditor.min.js"></script>
+<style type="text/css">
+.wangEditor-menu-container .menu-item a {padding: 12px 0;}
+.wangEditor-menu-container .menu-item {height: 37px;width: 37px;}
+.wangEditor-menu-container .menu-group {padding: 0;}
+.wangEditor-container {border: 1px solid #e6e6e6;}
+.pagination {margin: 0 0 20px 0;}
+.layui-form-item {margin: 15px 0;}
+.wangEditor-container .wangEditor-txt img {max-width: 100%;height: auto;}
+</style>
+<div class="tpt-wp cl">
+<div class="tpt-ml-7">
+<div class="tpt-con1">
+<div class="bdsharebuttonbox tpt-none-768 tpt-none-1024">
+<a href="#" class="bds_tsina1 bds_ico" data-cmd="tsina" title="分享到新浪微博"></a>
+<a href="#" class="bds_weixin1 bds_ico" data-cmd="weixin" title="分享到微信"></a>
+<a href="#" class="bds_qzone1 bds_ico" style="border-bottom: 0px" d ata-cmd="qzone" title="分享到QQ空间"></a>
+<a href="#pinglun" class="bds_pin bds_ico2" style="margin-top: 30px;border-bottom: 0px">评论</a>
+</div>
+<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"24"},"share":{},"selectShare":{"bdContainerClass":null,"bdSelectMiniList":["qzone","tsina","tqq","renren","weixin"]}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+<div class="content">
+<div class="tpt-thread">
+<h1><a href="__ROOT__/thread/{$tptt.id}.html">{$tptt.title}</a></h1>
+<div class="tpt-tip">
+<span class="tpt-tip-view"><a href="__ROOT__/view/{$tptt.cid}.html">{$tptt.name}</a></span>
+{if condition="$tptt['settop'] eq 1"}<span class="tpt-tip-stick">置顶</span>{/if}
+{if condition="$tptt['choice'] eq 1"}<span class="tpt-tip-jing">热门</span>{/if}
+<div class="tpt-list-hint"> 
+<i class="iconfont" title="回答">&#xe629;</i> {$tptt.reply}
+<i class="iconfont" title="人气" style="font-size: 20px;position: relative;top: 2px;">&#xe60a;</i> {$tptt.view}
+</div>
+</div>
+<div class="wangEditor-container cl" style="border: 0px solid #e6e6e6;min-height: 200px;">
+<div class="wangEditor-txt" style="padding: 0;margin-top: 0;">
+{$tptt.content|htmlspecialchars_decode}
+</div>
+</div>
+</div>
+{if condition="config('web.WEB_FHF') neq 0"}
+<div class="fly-panel detail-box">
+<div id="pinglun" class="tpt-tag-box cl"><span>发表评论</span></div>
+<div class="cmt-item2 layui-form layui-form-pane">
+<form>
+<input type="hidden" value="{$tptt.userid}" name="mid">
+<div class="layui-form-item layui-form-text">
+<div class="layui-input-block">
+<textarea id="textarea" name="content" required lay-verify="content" style="height:150px;width: 100%;"></textarea>
+</div>
+</div>
+<div class="layui-form-item">
+<button class="layui-btn layui-btn-normal" lay-submit="" lay-filter="comment_add">提交评论</button>
+</div>
+</form>
+</div>
+<div class="tpt-tag-tit cl"><h2>{$tptt.reply} 个回复</h2></div>
+<ul class="cmt-box jieda">
+{volist name="tptc" id="vo"}
+<li class="cmt-item jieda-daan" id="tpt{$vo.id}">
+<div class="detail-about detail-about-reply">
+<a class="jie-user" href="__ROOT__/home/{$vo.userid}.html"><img src="{$vo.userhead}" alt="{$vo.username}"><cite><i>{$vo.username}</i>{include file="public/grade"}</cite></a>
+<div class="detail-hits"><span>{$vo.time|date="Y-m-d h:i:s",###}</span></div>
+<span style="float: right; color:#999; margin-right: 0px;">
+<a style="color: #999;font-size: 13px;" class="reply-btn" href="javascript:;" reply="{$vo.userid}" at-user="true"><i style="margin-right: 4px;font-size: 18px;" class="layui-icon">&#xe63a;</i>回复</a>
+<span class="username" style="display:none">{$vo.username}</span>
+{if condition="$tptuser['userid'] eq 1"}
+<a class="del_btn" style="cursor: pointer;margin-left: 8px;color: #999;font-size: 13px;" member-id="{$vo.id}" member-fid="{$tptt.id}" title="删除">
+<i style="font-size: 20px;position: relative;top: 1px;" class="layui-icon">&#xe640;</i>
+删除
+</a>
+{/if}
+</span>
+</div>
+<div class="detail-body jieda-body">
+<p>{$vo.content|htmlspecialchars_decode}</p>
+</div>
+</li>
+{/volist}
+</ul>
+<div class="pages">{$tptc->render()}</div>
+</div>
+{/if}
+</div>
+</div>
+</div>
+<div class="tpt-mr-3">
+<div class="tpt-con2">
+{include file="public/home"}
+{include file="index/right"}
+</div>
+</div>
+</div>
+<script type="text/javascript">
+$(function(){	
+var form = $('.cmt-item2:last');
+$('.cmt-box').delegate('.reply-btn','click',function(event){
+var parent = $(this).closest('.cmt-item');
+form.find(':hidden[name=mid]').val($(this).attr('reply'));
+var textarea = parent.append(form).find('.wangEditor-txt p');
+if($(this).attr('at-user') == 'true'){
+var username = $(this).parent().find('.username').text();
+textarea.text('回复 @' + username + ' : ');
+}else{
+textarea.text('');
+}
+moveEnd(textarea.get(0));
+event.stopPropagation();
+})
+})
+</script>
+<script type="text/javascript">
+var editor = new wangEditor('textarea');
+editor.config.uploadImgUrl = '{:url("index/upload/doUploadPic")}';
+editor.config.uploadImgFileName = 'FileName';
+var W = document.documentElement.clientWidth || document.body.clientWidth;
+if(W < 1008){
+	editor.config.menus = [
+	'bold',
+	'underline',
+	'italic',
+	'forecolor',
+	'link',
+	'fullscreen',
+	];
+}else{
+	editor.config.menus = [
+	'bold',
+	'underline',
+	'italic',
+	'strikethrough',
+	'forecolor',
+	'link',
+	'unlink',
+	'emotion',
+	'img',
+	'insertcode',
+	'fullscreen',
+	];
+}
+editor.config.pasteText = true;
+editor.create();
+</script>
+<script type="text/javascript">
+layui.use('form', function(){
+var form = layui.form,
+jq = layui.jquery;
+jq('.del_btn').click(function(){
+var id = jq(this).attr('member-id');
+var fid = jq(this).attr('member-fid');
+layer.confirm('确定删除次评论么?', function(index){
+loading = layer.load(2, {
+shade: [0.2,'#000']
+});
+jq.post('{:url("index/comment/dels")}',{'id':id,'fid':fid},function(data){
+if(data.code == 200){
+layer.close(loading);
+layer.msg(data.msg, {icon: 1, time: 1000}, function(){
+location.reload();
+});
+}else{
+layer.close(loading);
+layer.msg(data.msg, {icon: 2, anim: 6, time: 1000});
+}
+});
+});
+});
+form.verify({
+content: function(value){
+if(value.replace(/<[^<>]+?>|[ ]|[&nbsp;]/g,'') == ''){
+return '内容不得为空';
+}
+}
+});
+form.on('submit(comment_add)', function(data){
+loading = layer.load(2, {
+shade: [0.2,'#000']
+});
+var param = data.field;
+jq.post('{:url("index/comment/add",array("id"=>$tptt.id))}',param,function(data){
+if(data.code == 200){
+layer.close(loading);
+layer.msg(data.msg, {icon: 1, time: 1000}, function(){
+location.reload();
+});
+}else{
+layer.close(loading);
+layer.msg(data.msg, {icon: 2, anim: 6, time: 1000});
+}
+});
+return false;
+});
+})
+</script>
+{include file="index/footer"}
+</body>
+</html>

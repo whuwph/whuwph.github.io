@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>  
+<title>我的内容 - {:config('web.WEB_AUT')}</title>
+{include file="index/header"}
+<link rel="stylesheet" href="__HOME__/css/user.css">
+<div class="tpt-wp cl">
+<div class="tpt-user cl">
+{include file="public/user"}
+<div class="tpt-tab cl">
+<div class="layui-tab layui-tab-brief">
+<ul class="layui-tab-title">
+<li class="layui-this"><a href="__ROOT__/user/index.html">我的内容</a></li>
+<li><a href="__ROOT__/user/comment.html">我的评论</a></li>
+</ul>
+<div class="layui-tab-content">
+<ul class="jie-row">
+{volist name="tptc" id="vo"}
+<li>
+<a href="__ROOT__/thread/{$vo.id}.html" target="_blank" class="jie-title">{$vo.title}</a>
+<i>{$vo.time|date="Y-m-d",###}</i>
+{if condition="$vo.shows eq 0"}<a style="background: #D63131;" class="mine-edit">待审</a>{/if}
+<a class="mine-edit" href="__ROOT__/edit/{$vo.id}.html">编辑</a>
+<em>{$vo.view}阅/{$vo.reply}答</em>
+</li>
+{/volist}
+</ul>
+<div class="pages cl">{$tptc->render()}</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+{include file="index/footer"}
+</body>
+</html>

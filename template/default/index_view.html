@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>  
+<title>{$tpti.name} - {:config('web.WEB_TIT')}</title>
+<meta name="keywords" content="{:config('web.WEB_KEY')}">
+<meta name="description" content="{:config('web.WEB_DES')}">
+{include file="index/header"}
+<link rel="stylesheet" href="__HOME__/css/index.css">
+<link rel="stylesheet" href="__HOME__/css/right.css">
+<div class="tpt-wp cl">
+<div class="tpt-ml-7">
+<div class="tpt-con1">
+
+<ul class="tpt-list">
+<h3>{$tpti.name}</h3>
+{volist name="tptc" id="vo"}
+<li class="tpt-list-li">
+{if condition="$vo['choice'] eq 1"}<div class="mod-angle">热</div>{/if}
+<a href="__ROOT__/thread/{$vo.id}.html" class="tpt-list-avatar">
+{if condition="$vo['pic'] neq ''"}
+<img src="__UPLO__{$vo.pic}" alt="{$vo.title}">
+{else/}
+<img src="__HOME__/img/1.jpg" alt="暂无图片">
+{/if}
+</a>
+<h2 class="tpt-tip"><a href="__ROOT__/thread/{$vo.id}.html">{$vo.title}</a></h2>
+<p>
+<span><a href="__ROOT__/home/{$vo.userid}.html"><img src="__UPLO__{$vo.userhead}" alt="{$vo.username}">{$vo.username}</a></span>
+<span class="tpt-none-768">{$vo.time|date="Y-m-d h:i:s",###}</span>
+<span class="tpt-list-hint" style="padding-right: 0;"> 
+<i class="iconfont" title="回答">&#xe629;</i> {$vo.reply}
+<i class="iconfont" title="人气" style="font-size: 20px;position: relative;top: 2px;">&#xe60a;</i> {$vo.view}
+</span>
+</p>
+<p class="tpt-none-768">
+    {$vo.description|substr=0,200}
+</p>
+<p style="padding-top: 0;line-height: 20px;">
+<span class="tpt-none-768 tpt-none-1024 tpt-none-1200 y" style="padding-right: 0;"><a href="__ROOT__/view/{$vo.cid}.html">{$vo.name}</a></span>
+</p>
+</li>
+{/volist}
+</ul>
+<div class="pages">{$tptc->render()}</div>
+</div>
+</div>
+
+<div class="tpt-mr-3">
+<div class="tpt-con2">
+{include file="public/zanzhu"}
+{include file="index/right"}
+</div>
+</div>
+
+</div>
+{include file="index/footer"}
+</body>
+</html>

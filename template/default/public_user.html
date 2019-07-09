@@ -1,0 +1,28 @@
+<ul class="layui-nav layui-nav-tree tpt-none-768 tpt-none-1024" id="menu" lay-filter="user">
+<li class="layui-nav-item"><a href="__ROOT__/home/{$tptuser.userid}.html"><i class="layui-icon">&#xe609;</i>我的主页</a></li>
+<li class="layui-nav-item"><a href="__ROOT__/user/index.html"><i class="layui-icon">&#xe612;</i>我的内容</a></li>
+<li class="layui-nav-item"><a href="__ROOT__/user/comment.html"><i class="layui-icon">&#xe611;</i>我的评论</a></li>
+<li class="layui-nav-item"><a href="__ROOT__/user/message.html"><i class="layui-icon">&#xe616;</i>评论我的</a></li>
+<li class="layui-nav-item"><a href="__ROOT__/user/set.html"><i class="layui-icon">&#xe620;</i>基本设置</a></li>
+</ul>
+
+<div class="fly-tab tpt-none-1200 tpt-none-1920 cl">
+<ul>
+<li><a href="__ROOT__/user/index.html"><i style="margin-right: 5px;" class="layui-icon">&#xe612;</i>我的内容</a></li>
+<li><a href="__ROOT__/user/message.html"><i style="margin-right: 5px;" class="layui-icon">&#xe616;</i>评论我的</a></li>
+<li><a href="__ROOT__/user/set.html"><i style="margin-right: 5px;" class="layui-icon">&#xe620;</i>基本设置</a></li>
+</ul>
+</div>
+
+<script type="text/javascript">
+  var urlstr = location.href;
+  var urlstatus=false;
+  $("#menu a").each(function () {
+    if ((urlstr + '/').indexOf($(this).attr('href')) > -1&&$(this).attr('href')!='') {
+      $(this).addClass('cur'); urlstatus = true;
+    } else {
+      $(this).removeClass('cur');
+    }
+  });
+  if (!urlstatus) {$("#menu a").eq(0).addClass('cur'); }
+</script>

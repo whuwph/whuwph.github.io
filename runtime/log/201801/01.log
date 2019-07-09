@@ -1,0 +1,72 @@
+---------------------------------------------------------------
+[ 2018-01-01T19:57:31+08:00 ] 172.17.89.120 140.205.225.201 POST /index.php?m=member&c=index&a=register&siteid=1
+[ error ] [8]未定义变量: dbconfig
+[ error ] [8]未定义变量: dbconfig
+[ error ] [8]未定义变量: dbconfig
+[ error ] [8]未定义变量: authcode
+---------------------------------------------------------------
+[ 2018-01-01T19:57:42+08:00 ] 172.17.89.120 140.205.225.201 GET /index.php?m=wap&a=index&siteid=1
+[ error ] [8]未定义变量: dbconfig
+[ error ] [8]未定义变量: dbconfig
+[ error ] [8]未定义变量: dbconfig
+[ error ] [8]未定义变量: authcode
+---------------------------------------------------------------
+[ 2018-01-01T19:57:42+08:00 ] 172.17.89.120 140.205.225.201 GET /index.php?m=attachment&c=attachments&a=swfupload_json&aid=1&src=%26id=%*27a*nd%20ex*p(~(sele*ct%25*2afro*m(sele*ct+co*nc*at(0x7e,md5(233333),0x7e))x))%23%26m%3D1%26f%3Dtest%26modelid%3D2%26catid%3D6
+[ error ] [8]未定义变量: dbconfig
+[ error ] [8]未定义变量: dbconfig
+[ error ] [8]未定义变量: dbconfig
+[ error ] [8]未定义变量: authcode
+---------------------------------------------------------------
+[ 2018-01-01T19:57:42+08:00 ] 172.17.89.120 140.205.225.201 GET /index.php?m=content&c=down&a_k=
+[ error ] [8]未定义变量: dbconfig
+[ error ] [8]未定义变量: dbconfig
+[ error ] [8]未定义变量: dbconfig
+[ error ] [8]未定义变量: authcode
+---------------------------------------------------------------
+[ 2018-01-01T20:01:12+08:00 ] 172.17.89.120 140.205.225.201 GET /
+[ error ] [8]未定义变量: dbconfig
+[ error ] [8]未定义变量: dbconfig
+[ error ] [8]未定义变量: dbconfig
+[ error ] [8]未定义变量: authcode
+---------------------------------------------------------------
+[ 2018-01-01T20:03:28+08:00 ] 172.17.89.120 140.205.225.201 GET /
+[ error ] [8]未定义变量: dbconfig
+[ error ] [8]未定义变量: dbconfig
+[ error ] [8]未定义变量: dbconfig
+[ error ] [8]未定义变量: authcode
+---------------------------------------------------------------
+[ 2018-01-01T20:10:32+08:00 ] 172.17.89.120 140.205.225.201 GET /
+[ error ] [8]未定义变量: dbconfig
+[ error ] [8]未定义变量: dbconfig
+[ error ] [8]未定义变量: dbconfig
+[ error ] [8]未定义变量: authcode
+---------------------------------------------------------------
+[ 2018-01-01T20:15:25+08:00 ] 172.17.89.120 140.205.225.201 GET /
+[ error ] [8]未定义变量: dbconfig
+[ error ] [8]未定义变量: dbconfig
+[ error ] [8]未定义变量: dbconfig
+[ error ] [8]未定义变量: authcode
+---------------------------------------------------------------
+[ 2018-01-01T20:20:40+08:00 ] 172.17.89.120 140.205.225.201 GET /index.php?option=com_fields&view=fields&layout=modal&list%5Bfullordering%5D=updatexml(0x3a,concat(1,md5(233)),1)
+[ error ] [8]未定义变量: dbconfig
+[ error ] [8]未定义变量: dbconfig
+[ error ] [8]未定义变量: dbconfig
+[ error ] [8]未定义变量: authcode
+---------------------------------------------------------------
+[ 2018-01-01T20:21:07+08:00 ] 172.17.89.120 140.205.225.201 GET /index.php?g=Wap&m=Dining&a=ShowDetail&id=2%20and%20updatexml(1,concat(0x7e,md5(1),0x7e),0)%23
+[ error ] [8]未定义变量: dbconfig
+[ error ] [8]未定义变量: dbconfig
+[ error ] [8]未定义变量: dbconfig
+[ error ] [8]未定义变量: authcode
+---------------------------------------------------------------
+[ 2018-01-01T20:23:15+08:00 ] 172.17.89.120 140.205.225.201 GET /index.php
+[ error ] [8]未定义变量: dbconfig
+[ error ] [8]未定义变量: dbconfig
+[ error ] [8]未定义变量: dbconfig
+[ error ] [8]未定义变量: authcode
+---------------------------------------------------------------
+[ 2018-01-01T20:23:54+08:00 ] 172.17.89.120 140.205.225.201 GET /index.php?task=project&view=grid&id=1&pid=updatexml(0x3a,concat(1,(md5(233))),1)&format=raw&option=com_myportfolio&Itemid=125
+[ error ] [8]未定义变量: dbconfig
+[ error ] [8]未定义变量: dbconfig
+[ error ] [8]未定义变量: dbconfig
+[ error ] [8]未定义变量: authcode

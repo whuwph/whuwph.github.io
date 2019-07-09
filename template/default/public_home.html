@@ -1,0 +1,19 @@
+<div class="tpt-sidebar cl">
+<div class="tpt-home">
+<a href="__ROOT__/home/{$tptt.userid}.html"><img src="{$tptt.userhead}" alt="{$tptt.username}"></a>
+<h1>
+<a href="__ROOT__/home/{$tptt.userid}.html">{$tptt.username}</a>
+{if condition="$tptt.sex eq 1"}  <i class="layui-icon icon-nan">&#xe662;</i>{else /} <i class="layui-icon icon-nv">&#xe661;</i>{/if}</h1>
+<p class="tpt-home-info">
+<i class="layui-icon">&#xe735;</i><span style="color: #FF7200;">{$tptt.point}</span>
+<i class="layui-icon">&#xe60e;</i><span>{$tptt.usertime|date="Y-m-d",###} 加入</span>
+<i class="layui-icon">&#xe715;</i><span>{if condition="$tptt.userhome neq ''"}{$tptt.userhome}{else /}中国{/if}</span>
+</p>
+<p class="tpt-home-sign">{if condition="$tptt.mdescription neq ''"}（{$tptt.mdescription}）{else /}（这个人懒得留下签名）{/if}</p>
+<div style="margin-top: 25px;" class="tpt-grid-org cl">
+<a style="border: 1px solid #5FB878;background-color: #5FB878;color: #FFF;padding: 0 28px;" class="tougao layui-btn">我要投稿</a>
+<a style="border: 1px solid #FF5722;background-color: #FF5722;color: #FFF;padding: 0 28px;" class="zanzhu layui-btn">我要打赏</a>
+</div>
+</div>
+
+</div>

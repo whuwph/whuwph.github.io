@@ -1,0 +1,16 @@
+{if condition="$tptuser.userid eq 1"}
+<em>管理员</em>
+{else /}
+{if condition="$tptuser.point egt config('point.GRADE_AVIP') and $tptuser.point lt config('point.GRADE_BVIP')"}
+<em>{:config('point.GRADE_CVIP')}</em>
+{/if}
+{if condition="$tptuser.point egt config('point.GRADE_DVIP') and $tptuser.point lt config('point.GRADE_EVIP')"}
+<em>{:config('point.GRADE_FVIP')}</em>
+{/if}
+{if condition="$tptuser.point egt config('point.GRADE_GVIP') and $tptuser.point lt config('point.GRADE_HVIP')"}
+<em>{:config('point.GRADE_IVIP')}</em>
+{/if}
+{if condition="$tptuser.point egt config('point.GRADE_JVIP')"}
+<em>{:config('point.GRADE_KVIP')}</em>
+{/if}
+{/if}

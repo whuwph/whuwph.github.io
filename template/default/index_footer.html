@@ -1,0 +1,106 @@
+<div class="tpt-footer footer tpt-mat-30 cl">
+	<div class="tpt-wp cl">
+		<div class="tpt-md-1">
+			<div class="tpt-mds">
+				<p class="bq">
+Copyright© 2014-2017
+					<span class="pipe">|</span>
+                    <a class="banquan" target="_blank" href="{:config('web.WEB_COM')}">Powered by {:config('web.WEB_AUT')}</a>
+					<span class="tpt-none-768 tpt-none-1024">
+					<span class="pipe">|</span>
+					<a href="http://www.miitbeian.gov.cn/" target="_blank">{:config('web.WEB_ICP')}</a>
+					<span class="pipe">|</span>
+					<a href="http://wpa.qq.com/msgrd?v=3&uin={:config('web.WEB_QQ')}&site=qq&menu=yes" target="_blank">QQ:{:config('web.WEB_QQ')}</a>
+					</span>
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+<div id="zanzhus" class="tpt-zan cl" style="display: none;">
+<div class="layui-tab">
+  <h2>感谢您的支持，我会继续努力的</h2>
+  <div class="layui-tab-content">
+    <div class="layui-tab-item layui-show"><img src="__HOME__/img/alipay.png"></div>
+    <div class="layui-tab-item"><img src="__HOME__/img/weipay.png"></div>
+	<p>感谢您的打赏</p>
+  </div>
+  <ul class="layui-tab-title">
+    <li class="layui-this"><span class="zanbox"></span><img src="__HOME__/img/ali.jpg" alt="支付宝"></li>
+    <li><span class="zanbox"></span><img src="__HOME__/img/wei.jpg" alt="微信"></li>
+  </ul>
+  <h3>打开支付宝或微信扫一扫，即可进行扫码打赏哦</h3>
+</div>
+</div>
+<script type="text/javascript">
+layui.use(['layer','jquery','element'], function(){
+  var layer = layui.layer,
+  element = layui.element,
+  jq = layui.jquery;
+  jq('.logout').click(function(){
+    loading = layer.load(2, {
+      shade: [0.2,'#000']
+    });
+    jq.getJSON('{:url("index/login/logout")}',function(data){
+      if(data.code == 200){
+        layer.close(loading);
+        layer.msg(data.msg, {icon: 1, time: 1000}, function(){
+          location.reload();
+        });
+      }else{
+        layer.close(loading);
+        layer.msg(data.msg, {icon: 2, anim: 6, time: 1000});
+      }
+    });
+  });
+	var W = document.documentElement.clientWidth || document.body.clientWidth;
+	if(W < 1008){
+	jq('.login').click(function(){
+	   layer.open({
+			type: 2,
+			title: 'QQ登陆',
+			maxmin: false,
+			shadeClose: true,
+			shade: 0.1,
+			area: ['260px', '260px'],
+			content: '{:config("web.WEB_COM")}/user/qq.html',
+			end: function(){location.reload();}
+		});
+	  });
+	}else{
+	jq('.login').click(function(){
+	   layer.open({
+			type: 2,
+			title: 'QQ登陆',
+			maxmin: false,
+			shadeClose: true,
+			shade: 0.1,
+			area: ['500px', '500px'],
+			content: '{:config("web.WEB_COM")}/user/qq.html',
+			end: function(){location.reload();}
+		});
+	});
+	}
+  jq('.zanzhu').click(function(){    
+       layer.open({
+			type:1,
+			title:'',
+			shadeClose:true,
+			area:['450px','400px'],
+			content:$('#zanzhus')
+	   });
+  });
+  jq('.tougao').click(function(){
+	var exp = "{$Think.session.validate}"
+	if(exp == ""){
+	    layer.msg('亲！请登录', {icon: 2, anim: 6, time: 1000});
+	}else{
+		if('{:config("web.WEB_ADD")}' == 1 && '{$tptuser.status}' == 1){
+		   location.href = '__ROOT__/add.html';
+		}else{
+		   layer.msg('已关闭投稿', {icon: 2, anim: 6, time: 1000});
+		}
+	}
+  });
+})
+</script>

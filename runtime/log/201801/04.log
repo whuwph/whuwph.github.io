@@ -1,0 +1,921 @@
+---------------------------------------------------------------
+[ 2018-01-04T11:33:32+08:00 ] 172.17.89.120 101.242.123.43 GET /index.php
+[ error ] [0]模板文件不存在:./template/lubo/index_index.html
+---------------------------------------------------------------
+[ 2018-01-04T11:33:33+08:00 ] 172.17.89.120 101.242.123.43 GET /index.php
+[ error ] [0]模板文件不存在:./template/lubo/index_index.html
+---------------------------------------------------------------
+[ 2018-01-04T11:33:33+08:00 ] 172.17.89.120 101.242.123.43 GET /index.php
+[ error ] [0]模板文件不存在:./template/lubo/index_index.html
+---------------------------------------------------------------
+[ 2018-01-04T11:33:42+08:00 ] 172.17.89.120 61.148.221.114 GET /
+[ error ] [0]模板文件不存在:./template/lubo/index_index.html
+---------------------------------------------------------------
+[ 2018-01-04T11:33:45+08:00 ] 172.17.89.120 61.148.221.114 GET /
+[ error ] [0]模板文件不存在:./template/lubo/index_index.html
+---------------------------------------------------------------
+[ 2018-01-04T11:34:15+08:00 ] 172.17.89.120 121.41.117.242 POST /
+[ error ] [0]模板文件不存在:./template/lubo/index_index.html
+---------------------------------------------------------------
+[ 2018-01-04T11:34:56+08:00 ] 172.17.89.120 101.242.123.43 GET /index.php
+[ error ] [0]模板文件不存在:./template/lubo/index_index.html
+---------------------------------------------------------------
+[ 2018-01-04T11:34:57+08:00 ] 172.17.89.120 101.242.123.43 GET /index.php
+[ error ] [0]模板文件不存在:./template/lubo/index_index.html
+---------------------------------------------------------------
+[ 2018-01-04T11:35:17+08:00 ] 172.17.89.120 101.242.123.43 GET /index.php
+[ error ] [0]模板文件不存在:./template/lubo/index_index.html
+---------------------------------------------------------------
+[ 2018-01-04T11:35:18+08:00 ] 172.17.89.120 101.242.123.43 GET /index.php
+[ error ] [0]模板文件不存在:./template/lubo/index_index.html
+---------------------------------------------------------------
+[ 2018-01-04T11:35:19+08:00 ] 172.17.89.120 101.242.123.43 GET /index.php
+[ error ] [0]模板文件不存在:./template/lubo/index_index.html
+---------------------------------------------------------------
+[ 2018-01-04T11:35:19+08:00 ] 172.17.89.120 101.242.123.43 GET /index.php
+[ error ] [0]模板文件不存在:./template/lubo/index_index.html
+---------------------------------------------------------------
+[ 2018-01-04T11:35:25+08:00 ] 172.17.89.120 101.242.123.43 GET /
+[ error ] [0]模板文件不存在:./template/lubo/index_index.html
+---------------------------------------------------------------
+[ 2018-01-04T11:35:27+08:00 ] 172.17.89.120 101.242.123.43 GET /
+[ error ] [0]模板文件不存在:./template/lubo/index_index.html
+---------------------------------------------------------------
+[ 2018-01-04T11:35:28+08:00 ] 172.17.89.120 101.242.123.43 GET /
+[ error ] [0]模板文件不存在:./template/lubo/index_index.html
+---------------------------------------------------------------
+[ 2018-01-04T11:35:28+08:00 ] 172.17.89.120 101.242.123.43 GET /
+[ error ] [0]模板文件不存在:./template/lubo/index_index.html
+---------------------------------------------------------------
+[ 2018-01-04T11:35:29+08:00 ] 172.17.89.120 101.242.123.43 GET /
+[ error ] [0]模板文件不存在:./template/lubo/index_index.html
+---------------------------------------------------------------
+[ 2018-01-04T11:35:29+08:00 ] 172.17.89.120 101.242.123.43 GET /
+[ error ] [0]模板文件不存在:./template/lubo/index_index.html
+---------------------------------------------------------------
+[ 2018-01-04T11:35:48+08:00 ] 172.17.89.120 101.242.123.43 GET /index.php
+[ error ] [0]模板文件不存在:./template/lubo/index_index.html
+---------------------------------------------------------------
+[ 2018-01-04T11:36:06+08:00 ] 172.17.89.120 101.242.123.43 GET /index.php
+[ error ] [0]模板文件不存在:./template/lubo/index_index.html
+---------------------------------------------------------------
+[ 2018-01-04T11:36:07+08:00 ] 172.17.89.120 101.242.123.43 GET /index.php
+[ error ] [0]模板文件不存在:./template/lubo/index_index.html
+---------------------------------------------------------------
+[ 2018-01-04T11:36:07+08:00 ] 172.17.89.120 101.242.123.43 GET /index.php
+[ error ] [0]模板文件不存在:./template/lubo/index_index.html
+---------------------------------------------------------------
+[ 2018-01-04T11:36:07+08:00 ] 172.17.89.120 101.242.123.43 GET /index.php
+[ error ] [0]模板文件不存在:./template/lubo/index_index.html
+---------------------------------------------------------------
+[ 2018-01-04T11:36:08+08:00 ] 172.17.89.120 101.242.123.43 GET /index.php
+[ error ] [0]模板文件不存在:./template/lubo/index_index.html
+---------------------------------------------------------------
+[ 2018-01-04T11:36:08+08:00 ] 172.17.89.120 101.242.123.43 GET /index.php
+[ error ] [0]模板文件不存在:./template/lubo/index_index.html
+---------------------------------------------------------------
+[ 2018-01-04T11:37:08+08:00 ] 172.17.89.120 101.242.123.43 GET /index.php
+[ info ] www.itboke.cn/index.php [运行时间：0.041286s][吞吐率：24.22req/s] [内存消耗：3,893.53kb] [文件加载：65]
+[ info ] [ LANG ] /www/wwwroot/www.itboke.cn/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.itboke.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.itboke.cn/admin.php',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvid=9328296380; PHPSESSID=iafvlifbl44raihi5dje2deq25',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/www.itboke.cn/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]模板文件不存在:./template/lubo/index_index.html[/www/wwwroot/www.itboke.cn/thinkphp/library/think/view/driver/Think.php:80]
+---------------------------------------------------------------
+[ 2018-01-04T11:37:23+08:00 ] 172.17.89.120 101.242.123.43 GET /admin.php/navtop/index.html
+[ info ] www.itboke.cn/admin.php/navtop/index.html [运行时间：0.036998s][吞吐率：27.03req/s] [内存消耗：4,137.12kb] [文件加载：65]
+[ info ] [ LANG ] /www/wwwroot/www.itboke.cn/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'navtop',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.itboke.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.itboke.cn/admin.php',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvid=9328296380; PHPSESSID=iafvlifbl44raihi5dje2deq25; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Navtop->index[ /www/wwwroot/www.itboke.cn/application/admin/controller/Navtop.php ]
+[ info ] [ VIEW ] ./application/admin/view/navtop_index.html [ array (
+  0 => 'tptc',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-04T11:37:25+08:00 ] 172.17.89.120 101.242.123.43 GET /admin.php/category/index.html
+[ info ] www.itboke.cn/admin.php/category/index.html [运行时间：0.044145s][吞吐率：22.65req/s] [内存消耗：4,124.87kb] [文件加载：65]
+[ info ] [ LANG ] /www/wwwroot/www.itboke.cn/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.itboke.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.itboke.cn/admin.php',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvid=9328296380; PHPSESSID=iafvlifbl44raihi5dje2deq25; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Category->index[ /www/wwwroot/www.itboke.cn/application/admin/controller/Category.php ]
+[ info ] [ VIEW ] ./application/admin/view/category_index.html [ array (
+  0 => 'tptc',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-04T11:37:26+08:00 ] 172.17.89.120 101.242.123.43 GET /admin.php/navtop/index.html
+[ info ] www.itboke.cn/admin.php/navtop/index.html [运行时间：0.041340s][吞吐率：24.19req/s] [内存消耗：3,929.69kb] [文件加载：63]
+[ info ] [ LANG ] /www/wwwroot/www.itboke.cn/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'navtop',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.itboke.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.itboke.cn/admin.php',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvid=9328296380; PHPSESSID=iafvlifbl44raihi5dje2deq25; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Navtop->index[ /www/wwwroot/www.itboke.cn/application/admin/controller/Navtop.php ]
+[ info ] [ VIEW ] ./application/admin/view/navtop_index.html [ array (
+  0 => 'tptc',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-04T11:37:27+08:00 ] 172.17.89.120 115.29.113.101 POST /
+[ info ] www.itboke.cn/ [运行时间：0.057805s][吞吐率：17.30req/s] [内存消耗：3,886.74kb] [文件加载：65]
+[ info ] [ LANG ] /www/wwwroot/www.itboke.cn/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.itboke.cn',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Win64; x64; Trident/5.0)',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/www.itboke.cn/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]模板文件不存在:./template/lubo/index_index.html[/www/wwwroot/www.itboke.cn/thinkphp/library/think/view/driver/Think.php:80]
+---------------------------------------------------------------
+[ 2018-01-04T11:37:28+08:00 ] 172.17.89.120 101.242.123.43 GET /admin.php/navtop/edit/id/2.html
+[ info ] www.itboke.cn/admin.php/navtop/edit/id/2.html [运行时间：0.038767s][吞吐率：25.80req/s] [内存消耗：4,131.70kb] [文件加载：65]
+[ info ] [ LANG ] /www/wwwroot/www.itboke.cn/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'navtop',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.itboke.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.itboke.cn/admin.php/navtop/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvid=9328296380; PHPSESSID=iafvlifbl44raihi5dje2deq25; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Navtop->edit[ /www/wwwroot/www.itboke.cn/application/admin/controller/Navtop.php ]
+[ info ] [ VIEW ] ./application/admin/view/navtop_edit.html [ array (
+  0 => 'tptcs',
+  1 => 'tptc',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-04T11:37:30+08:00 ] 172.17.89.120 101.242.123.43 GET /admin.php/navtop/index.html
+[ info ] www.itboke.cn/admin.php/navtop/index.html [运行时间：0.035341s][吞吐率：28.30req/s] [内存消耗：3,929.69kb] [文件加载：63]
+[ info ] [ LANG ] /www/wwwroot/www.itboke.cn/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'navtop',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.itboke.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.itboke.cn/admin.php',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvid=9328296380; PHPSESSID=iafvlifbl44raihi5dje2deq25; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Navtop->index[ /www/wwwroot/www.itboke.cn/application/admin/controller/Navtop.php ]
+[ info ] [ VIEW ] ./application/admin/view/navtop_index.html [ array (
+  0 => 'tptc',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-04T11:37:31+08:00 ] 172.17.89.120 101.242.123.43 GET /index.php
+[ info ] www.itboke.cn/index.php [运行时间：0.047024s][吞吐率：21.27req/s] [内存消耗：3,893.40kb] [文件加载：65]
+[ info ] [ LANG ] /www/wwwroot/www.itboke.cn/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.itboke.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.itboke.cn/admin.php',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvid=9328296380; PHPSESSID=iafvlifbl44raihi5dje2deq25; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/www.itboke.cn/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]模板文件不存在:./template/lubo/index_index.html[/www/wwwroot/www.itboke.cn/thinkphp/library/think/view/driver/Think.php:80]
+---------------------------------------------------------------
+[ 2018-01-04T11:37:33+08:00 ] 172.17.89.120 101.242.123.43 GET /index.php
+[ info ] www.itboke.cn/index.php [运行时间：0.042793s][吞吐率：23.37req/s] [内存消耗：3,893.50kb] [文件加载：65]
+[ info ] [ LANG ] /www/wwwroot/www.itboke.cn/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.itboke.cn',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.itboke.cn/admin.php',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvid=9328296380; PHPSESSID=iafvlifbl44raihi5dje2deq25; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/www.itboke.cn/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]模板文件不存在:./template/lubo/index_index.html[/www/wwwroot/www.itboke.cn/thinkphp/library/think/view/driver/Think.php:80]
+---------------------------------------------------------------
+[ 2018-01-04T11:37:34+08:00 ] 172.17.89.120 101.242.123.43 GET /index.php
+[ info ] www.itboke.cn/index.php [运行时间：0.043348s][吞吐率：23.07req/s] [内存消耗：3,893.50kb] [文件加载：65]
+[ info ] [ LANG ] /www/wwwroot/www.itboke.cn/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.itboke.cn',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.itboke.cn/admin.php',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvid=9328296380; PHPSESSID=iafvlifbl44raihi5dje2deq25; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/www.itboke.cn/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]模板文件不存在:./template/lubo/index_index.html[/www/wwwroot/www.itboke.cn/thinkphp/library/think/view/driver/Think.php:80]
+---------------------------------------------------------------
+[ 2018-01-04T11:37:34+08:00 ] 172.17.89.120 101.242.123.43 GET /index.php
+[ info ] www.itboke.cn/index.php [运行时间：0.043125s][吞吐率：23.19req/s] [内存消耗：3,893.50kb] [文件加载：65]
+[ info ] [ LANG ] /www/wwwroot/www.itboke.cn/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.itboke.cn',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.itboke.cn/admin.php',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvid=9328296380; PHPSESSID=iafvlifbl44raihi5dje2deq25; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/www.itboke.cn/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]模板文件不存在:./template/lubo/index_index.html[/www/wwwroot/www.itboke.cn/thinkphp/library/think/view/driver/Think.php:80]
+---------------------------------------------------------------
+[ 2018-01-04T11:37:35+08:00 ] 172.17.89.120 101.242.123.43 GET /index.php
+[ info ] www.itboke.cn/index.php [运行时间：0.041269s][吞吐率：24.23req/s] [内存消耗：3,893.50kb] [文件加载：65]
+[ info ] [ LANG ] /www/wwwroot/www.itboke.cn/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.itboke.cn',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.itboke.cn/admin.php',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvid=9328296380; PHPSESSID=iafvlifbl44raihi5dje2deq25; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/www.itboke.cn/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]模板文件不存在:./template/lubo/index_index.html[/www/wwwroot/www.itboke.cn/thinkphp/library/think/view/driver/Think.php:80]
+---------------------------------------------------------------
+[ 2018-01-04T11:37:37+08:00 ] 172.17.89.120 101.242.123.43 GET /admin.php/category/index.html
+[ info ] www.itboke.cn/admin.php/category/index.html [运行时间：0.034534s][吞吐率：28.96req/s] [内存消耗：3,919.94kb] [文件加载：63]
+[ info ] [ LANG ] /www/wwwroot/www.itboke.cn/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.itboke.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.itboke.cn/admin.php',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvid=9328296380; PHPSESSID=iafvlifbl44raihi5dje2deq25; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Category->index[ /www/wwwroot/www.itboke.cn/application/admin/controller/Category.php ]
+[ info ] [ VIEW ] ./application/admin/view/category_index.html [ array (
+  0 => 'tptc',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-04T11:37:38+08:00 ] 172.17.89.120 101.242.123.43 GET /admin.php/admin/index.html
+[ info ] www.itboke.cn/admin.php/admin/index.html [运行时间：0.033513s][吞吐率：29.84req/s] [内存消耗：4,023.95kb] [文件加载：65]
+[ info ] [ LANG ] /www/wwwroot/www.itboke.cn/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.itboke.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.itboke.cn/admin.php',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvid=9328296380; PHPSESSID=iafvlifbl44raihi5dje2deq25; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Admin->index[ /www/wwwroot/www.itboke.cn/application/admin/controller/Admin.php ]
+[ info ] [ VIEW ] ./application/admin/view/admin_index.html [ array (
+  0 => 'tptc',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-04T11:37:39+08:00 ] 172.17.89.120 101.242.123.43 GET /admin.php/config/index.html
+[ info ] www.itboke.cn/admin.php/config/index.html [运行时间：0.031969s][吞吐率：31.28req/s] [内存消耗：3,630.34kb] [文件加载：63]
+[ info ] [ LANG ] /www/wwwroot/www.itboke.cn/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'config',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.itboke.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.itboke.cn/admin.php',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvid=9328296380; PHPSESSID=iafvlifbl44raihi5dje2deq25; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Config->index[ /www/wwwroot/www.itboke.cn/application/admin/controller/Config.php ]
+[ info ] [ VIEW ] ./application/admin/view/config_index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-04T11:37:47+08:00 ] 172.17.89.120 101.242.123.43 POST /admin.php/config/add.html
+[ info ] www.itboke.cn/admin.php/config/add.html [运行时间：0.027809s][吞吐率：35.96req/s] [内存消耗：3,306.32kb] [文件加载：57]
+[ info ] [ LANG ] /www/wwwroot/www.itboke.cn/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'config',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.itboke.cn',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'origin' => 'http://www.itboke.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'referer' => 'http://www.itboke.cn/admin.php/config/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvid=9328296380; PHPSESSID=iafvlifbl44raihi5dje2deq25; thinkphp_show_page_trace=0|0',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'content-length' => '1104',
+)
+[ info ] [ PARAM ] array (
+  'WEB_TIT' => '波仔技术博客-分享各种学习资源,thinkphp技术交流',
+  'WEB_COM' => 'http://www.itboke.cn',
+  'WEB_AUT' => '网站开发工作室版权所有',
+  'WEB_QQ' => '505413',
+  'WEB_ICP' => '冀ICP备15015765号-1',
+  'WEB_KEY' => '个人博客,技术博客.linux,win,php,thinkphp5',
+  'WEB_DES' => '欢迎来到波仔技术博客。这是一个分享经验，php教程，前端教程，计算机维护的博客。',
+  'WEB_TAG' => 'CPU,CSS,LINUX,JQUERY,PHP,AJAX',
+  'WEB_LOG' => '2',
+  'WEB_YAN' => '0',
+  'WEB_QQID' => '101235270',
+  'WEB_QQKEY' => '6c1051d20e6c28439f36470863f35676',
+  'WEB_TPT' => 'default',
+  'WEB_OPE' => '0',
+  'WEB_CNE' => '1',
+  'WEB_ADD' => '1',
+  'WEB_CNT' => '1',
+  'WEB_FTP' => '3',
+  'WEB_FHY' => '8',
+  'WEB_FDZ' => '3',
+  'WEB_FTJ' => '3',
+  'WEB_FJX' => '0',
+  'WEB_FHF' => '15',
+  'WEB_FYS' => '6',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Config->add[ /www/wwwroot/www.itboke.cn/application/admin/controller/Config.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-04T11:37:48+08:00 ] 172.17.89.120 101.242.123.43 GET /index.php
+[ info ] www.itboke.cn/index.php [运行时间：0.045299s][吞吐率：22.08req/s] [内存消耗：4,125.34kb] [文件加载：66]
+[ info ] [ LANG ] /www/wwwroot/www.itboke.cn/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.itboke.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.itboke.cn/admin.php',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvid=9328296380; PHPSESSID=iafvlifbl44raihi5dje2deq25; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/www.itboke.cn/application/index/controller/Index.php ]
+[ info ] [ VIEW ] ./template/default/index_index.html [ array (
+  0 => 'tptca',
+  1 => 'tptcm',
+  2 => 'tptcc',
+  3 => 'tptm',
+  4 => 'tptl',
+  5 => 'tpte',
+  6 => 'tptf',
+  7 => 'tptb',
+  8 => 'tagss',
+  9 => 'tptop',
+  10 => 'tptops',
+  11 => 'tptuser',
+  12 => 'tptc',
+  13 => 'tptcs',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-04T11:37:49+08:00 ] 172.17.89.120 101.242.123.43 GET /admin.php/config/index.html
+[ info ] www.itboke.cn/admin.php/config/index.html [运行时间：0.031416s][吞吐率：31.83req/s] [内存消耗：3,422.84kb] [文件加载：61]
+[ info ] [ LANG ] /www/wwwroot/www.itboke.cn/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'config',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.itboke.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.itboke.cn/admin.php/config/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvid=9328296380; PHPSESSID=iafvlifbl44raihi5dje2deq25; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Config->index[ /www/wwwroot/www.itboke.cn/application/admin/controller/Config.php ]
+[ info ] [ VIEW ] ./application/admin/view/config_index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-04T15:37:47+08:00 ] 172.17.89.120 140.205.201.40 GET /
+[ error ] [8]未定义变量: dbconfig
+[ error ] [8]未定义变量: dbconfig
+[ error ] [8]未定义变量: dbconfig
+[ error ] [8]未定义变量: authcode
+---------------------------------------------------------------
+[ 2018-01-04T15:37:55+08:00 ] 172.17.89.120 140.205.201.40 POST /index.php?m=member&c=index&a=register&siteid=1
+[ error ] [8]未定义变量: dbconfig
+[ error ] [8]未定义变量: dbconfig
+[ error ] [8]未定义变量: dbconfig
+[ error ] [8]未定义变量: authcode
+---------------------------------------------------------------
+[ 2018-01-04T15:37:55+08:00 ] 172.17.89.120 140.205.201.40 GET /index.php?m=wap&a=index&siteid=1
+[ error ] [8]未定义变量: dbconfig
+[ error ] [8]未定义变量: dbconfig
+[ error ] [8]未定义变量: dbconfig
+[ error ] [8]未定义变量: authcode
+---------------------------------------------------------------
+[ 2018-01-04T15:37:55+08:00 ] 172.17.89.120 140.205.201.40 GET /index.php?m=attachment&c=attachments&a=swfupload_json&aid=1&src=%26id=%*27a*nd%20ex*p(~(sele*ct%25*2afro*m(sele*ct+co*nc*at(0x7e,md5(233333),0x7e))x))%23%26m%3D1%26f%3Dtest%26modelid%3D2%26catid%3D6
+[ error ] [8]未定义变量: dbconfig
+[ error ] [8]未定义变量: dbconfig
+[ error ] [8]未定义变量: dbconfig
+[ error ] [8]未定义变量: authcode
+---------------------------------------------------------------
+[ 2018-01-04T15:37:55+08:00 ] 172.17.89.120 140.205.201.40 GET /index.php?m=content&c=down&a_k=
+[ error ] [8]未定义变量: dbconfig
+[ error ] [8]未定义变量: dbconfig
+[ error ] [8]未定义变量: dbconfig
+[ error ] [8]未定义变量: authcode
+---------------------------------------------------------------
+[ 2018-01-04T15:39:06+08:00 ] 172.17.89.120 140.205.201.40 GET /
+[ error ] [8]未定义变量: dbconfig
+[ error ] [8]未定义变量: dbconfig
+[ error ] [8]未定义变量: dbconfig
+[ error ] [8]未定义变量: authcode
+---------------------------------------------------------------
+[ 2018-01-04T15:42:04+08:00 ] 172.17.89.120 140.205.201.40 GET /
+[ error ] [8]未定义变量: dbconfig
+[ error ] [8]未定义变量: dbconfig
+[ error ] [8]未定义变量: dbconfig
+[ error ] [8]未定义变量: authcode
+---------------------------------------------------------------
+[ 2018-01-04T15:43:24+08:00 ] 172.17.89.120 140.205.201.40 GET /
+[ error ] [8]未定义变量: dbconfig
+[ error ] [8]未定义变量: dbconfig
+[ error ] [8]未定义变量: dbconfig
+[ error ] [8]未定义变量: authcode
+---------------------------------------------------------------
+[ 2018-01-04T15:45:47+08:00 ] 172.17.89.120 140.205.201.40 GET /index.php?option=com_fields&view=fields&layout=modal&list%5Bfullordering%5D=updatexml(0x3a,concat(1,md5(233)),1)
+[ error ] [8]未定义变量: dbconfig
+[ error ] [8]未定义变量: dbconfig
+[ error ] [8]未定义变量: dbconfig
+[ error ] [8]未定义变量: authcode
+---------------------------------------------------------------
+[ 2018-01-04T15:46:32+08:00 ] 172.17.89.120 140.205.201.40 GET /index.php?g=Wap&m=Dining&a=ShowDetail&id=2%20and%20updatexml(1,concat(0x7e,md5(1),0x7e),0)%23
+[ error ] [8]未定义变量: dbconfig
+[ error ] [8]未定义变量: dbconfig
+[ error ] [8]未定义变量: dbconfig
+[ error ] [8]未定义变量: authcode
+---------------------------------------------------------------
+[ 2018-01-04T15:47:57+08:00 ] 172.17.89.120 140.205.201.40 GET /index.php
+[ error ] [8]未定义变量: dbconfig
+[ error ] [8]未定义变量: dbconfig
+[ error ] [8]未定义变量: dbconfig
+[ error ] [8]未定义变量: authcode
+---------------------------------------------------------------
+[ 2018-01-04T15:48:15+08:00 ] 172.17.89.120 140.205.201.40 GET /index.php?task=project&view=grid&id=1&pid=updatexml(0x3a,concat(1,(md5(233))),1)&format=raw&option=com_myportfolio&Itemid=125
+[ error ] [8]未定义变量: dbconfig
+[ error ] [8]未定义变量: dbconfig
+[ error ] [8]未定义变量: dbconfig
+[ error ] [8]未定义变量: authcode
+---------------------------------------------------------------
+[ 2018-01-04T16:00:18+08:00 ] 172.17.89.120 140.205.201.37 POST /index.php?m=member&c=index&a=register&siteid=1
+[ error ] [8]未定义变量: dbconfig
+[ error ] [8]未定义变量: dbconfig
+[ error ] [8]未定义变量: dbconfig
+[ error ] [8]未定义变量: authcode
+---------------------------------------------------------------
+[ 2018-01-04T16:01:30+08:00 ] 172.17.89.120 140.205.201.37 GET /index.php?m=wap&a=index&siteid=1
+[ error ] [8]未定义变量: dbconfig
+[ error ] [8]未定义变量: dbconfig
+[ error ] [8]未定义变量: dbconfig
+[ error ] [8]未定义变量: authcode
+---------------------------------------------------------------
+[ 2018-01-04T16:01:30+08:00 ] 172.17.89.120 140.205.201.37 GET /index.php?m=attachment&c=attachments&a=swfupload_json&aid=1&src=%26id=%*27a*nd%20ex*p(~(sele*ct%25*2afro*m(sele*ct+co*nc*at(0x7e,md5(233333),0x7e))x))%23%26m%3D1%26f%3Dtest%26modelid%3D2%26catid%3D6
+[ error ] [8]未定义变量: dbconfig
+[ error ] [8]未定义变量: dbconfig
+[ error ] [8]未定义变量: dbconfig
+[ error ] [8]未定义变量: authcode
+---------------------------------------------------------------
+[ 2018-01-04T16:01:30+08:00 ] 172.17.89.120 140.205.201.37 GET /index.php?m=content&c=down&a_k=
+[ error ] [8]未定义变量: dbconfig
+[ error ] [8]未定义变量: dbconfig
+[ error ] [8]未定义变量: dbconfig
+[ error ] [8]未定义变量: authcode

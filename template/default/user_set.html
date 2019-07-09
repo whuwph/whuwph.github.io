@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+<head>  
+<title>基本设置 - {:config('web.WEB_AUT')}</title>
+{include file="index/header"}
+<link rel="stylesheet" href="__HOME__/css/user.css">
+<div class="tpt-wp cl">
+<div class="tpt-user cl">
+{include file="public/user"}
+<div class="tpt-tab cl">
+<div class="layui-tab layui-tab-brief" lay-filter="docDemoTabBrief">
+<ul class="layui-tab-title">
+<li class="layui-this">基本资料</li>
+<li>修改头像</li>
+<li>修改密码</li>
+<li>实名认证</li>
+</ul>
+<div class="layui-tab-content" style="padding: 20px 0;">
+<div class="layui-tab-item layui-show">
+<form class="layui-form layui-form-pane" method="post">
+<blockquote style="border:none;margin-bottom:15px;color:#333;" class="layui-elem-quote">
+{if condition="$tptuser['type'] eq 0"}<a style="cursor: pointer;color:#4F99CF;" class="bqq">立即绑定</a> ，即可使用QQ帐号直接登录{/if}
+{if condition="$tptuser['type'] eq 1"}已成功绑定，您可以使用QQ帐号直接登录，也可以 <a style="cursor: pointer;color:#4F99CF;" class="jqq">解除绑定</a>{/if}
+</blockquote>
+<div class="layui-form-item">
+<label class="layui-form-label">昵称</label>
+<div class="layui-input-inline">
+<input type="text" name="username" required lay-verify="required|names" autocomplete="off" value="{$tptc.username}" class="layui-input">
+</div>
+</div>
+<div class="layui-form-item">
+<label class="layui-form-label">邮箱</label>
+<div class="layui-input-inline">
+<input type="text" name="usermail" autocomplete="off" value="{$tptc.usermail}" class="layui-input">
+</div>
+</div>
+<div class="layui-form-item">
+<label class="layui-form-label">QQ</label>
+<div class="layui-input-inline">
+<input type="text" name="userqq" autocomplete="off" value="{$tptc.userqq}" class="layui-input">
+</div>
+</div>
+<div class="layui-form-item">
+<label class="layui-form-label">城市</label>
+<div class="layui-input-inline">
+<input type="text" name="userhome" lay-verify="homes" autocomplete="off" value="{$tptc.userhome}" class="layui-input">
+</div>
+</div>
+<div class="layui-form-item layui-form-text">
+<label class="layui-form-label">签名</label>
+<div class="layui-input-block">
+<textarea placeholder="随便写些什么刷下存在感" name="description" lay-verify="descrs" autocomplete="off" class="layui-textarea" style="height: 80px;">{$tptc.description}</textarea>
+</div>
+</div>
+<div class="layui-form-item">
+<button class="layui-btn" lay-submit="" lay-filter="user_sets">确认修改</button>
+</div>
+</form>
+</div>
+
+<div class="layui-tab-item">
+<form class="layui-form" method="post">
+<div class="layui-form-item">
+<div class="avatar-add">
+<p>建议尺寸200*200，支持jpg、png、gif，最大不能超过500KB</p>
+<div class="upload-img">
+<button type="button" class="layui-btn layui-btn-primary" id="head"><i class="layui-icon">&#xe67c;</i>上传头像</button>
+<input type="hidden" name="userhead" value="{$tptc.userhead}" class="layui-input">
+</div>
+<img style="width: 200px;height: 200px;" id="userhead" src="__UPLO__{$tptc.userhead}">
+</div>
+</div>
+<div class="layui-form-item">
+<button class="layui-btn" lay-submit="" lay-filter="user_headedit">确认修改</button>
+</div>
+</form>
+</div>
+
+<div class="layui-tab-item">
+<form class="layui-form layui-form-pane" method="post">
+<div class="layui-form-item">
+<label class="layui-form-label">修改密码</label>
+<div class="layui-input-inline">
+<input type="password" name="password" required lay-verify="required|pass" placeholder="请输入内容" autocomplete="off" class="layui-input">
+</div>
+</div>
+<div class="layui-form-item">
+<label class="layui-form-label">确认密码</label>
+<div class="layui-input-inline">
+<input type="password" name="passwords" required lay-verify="required|pass" placeholder="请输入内容" autocomplete="off" class="layui-input">
+</div>
+</div>
+<div class="layui-form-item">
+<button class="layui-btn" lay-submit="" lay-filter="user_pass">确认修改</button>
+</div>
+</form>
+</div>
+
+<div class="layui-tab-item">
+<form class="layui-form layui-form-pane" method="post">
+<div class="layui-form-item">
+<label class="layui-form-label">姓名</label>
+<div class="layui-input-inline">
+<input type="text" name="userxm" required lay-verify="required" autocomplete="off" value="{$tptc.userxm}" class="layui-input">
+</div>
+</div>
+<div class="layui-form-item">
+<label class="layui-form-label">身份证号</label>
+<div class="layui-input-inline">
+<input type="text" name="usersid" required lay-verify="required" autocomplete="off" value="{$tptc.usersid}" class="layui-input">
+</div>
+</div>
+
+<div class="layui-form-item">
+<div class="avatar-add">
+<p>建议尺寸400*260，支持jpg、png、gif，最大不能超过500KB</p>
+<div class="upload-img">
+<button type="button" class="layui-btn layui-btn-primary" id="image"><i class="layui-icon">&#xe67c;</i>上传图片</button>
+<input type="hidden" name="userzm" value="{$tptc.userzm}" class="layui-input">
+</div>
+{if condition="$tptc['userzm'] neq ''"}
+<img id="userzm" src="__UPLO__{$tptc.userzm}">
+{else/}
+<img id="userzm" src="__HOME__/img/1.jpg">
+{/if}
+</div>
+</div>
+<div class="layui-form-item">
+<button class="layui-btn" lay-submit="" lay-filter="user_setss">确认修改</button>
+</div>
+</form>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<script type="text/javascript">
+layui.use(['form', 'upload'],function(){
+var form = layui.form,
+upload = layui.upload,
+jq = layui.jquery;
+jq('.bqq').click(function(){
+layer.open({
+type: 2,
+title: 'QQ登陆',
+maxmin: false,
+shadeClose: true,
+shade: 0.1,
+area: ['500px', '500px'],
+content: '{:config("web.WEB_COM")}/user/qq.html',
+end: function(){location.reload();}
+});
+});
+jq('.jqq').click(function(){
+layer.confirm('确定解除绑定么?', function(index){
+loading = layer.load(2, {
+shade: [0.2,'#000']
+});
+jq.post('{:url("index/user/jqq")}',function(data){
+if(data.code == 200){
+layer.close(loading);
+layer.msg(data.msg, {icon: 1, time: 1000}, function(){
+location.reload();
+});
+}else{
+layer.close(loading);
+layer.msg(data.msg, {icon: 2, anim: 6, time: 1000});
+}
+});
+});
+});
+upload.render({
+url: '{:url("index/upload/upimage")}'
+,elem:'#image'
+,ext: 'jpg|png|gif'
+,area: ['500', '500px']
+,before: function(input){
+loading = layer.load(2, {
+shade: [0.2,'#000']
+});
+}
+,done: function(res){
+layer.close(loading);
+jq('input[name=userzm]').val(res.path);
+userzm.src = "__UPLO__"+res.path;
+layer.msg(res.msg, {icon: 1, time: 1000});
+}
+});
+upload.render({
+url: '{:url("index/upload/upimage")}'
+,elem:'#head'
+,ext: 'jpg|png|gif'
+,area: ['200', '200px']
+,before: function(input){
+loading = layer.load(2, {
+shade: [0.2,'#000']
+});
+}
+,done: function(res){
+layer.close(loading);
+jq('input[name=userhead]').val(res.path);
+userhead.src = "__UPLO__"+res.path;
+layer.msg(res.msg, {icon: 1, time: 1000});
+}
+}); 
+form.verify({
+names: function(value){
+if(value.length > 12){
+return '昵称必须小于12位';
+}
+}
+,homes: function(value){
+if(value.length > 6){
+return '城市必须小于6位';
+}
+}
+,descrs: function(value){
+if(value.length > 16){
+return '签名必须小于16位';
+}
+}
+,pass: [/(.+){6,12}$/, '密码必须6到12位']
+,content: function(value){
+layedit.sync(editIndex);
+}
+});
+form.on('submit(user_sets)', function(data){
+loading = layer.load(2, {
+shade: [0.2,'#000']
+});
+var param = data.field;
+jq.post('{:url("index/user/sets")}',param,function(data){
+if(data.code == 200){
+layer.close(loading);
+layer.msg(data.msg, {icon: 1, time: 1000}, function(){
+location.href = '{:url("index/user/set")}';
+});
+}else{
+layer.close(loading);
+layer.msg(data.msg, {icon: 2, anim: 6, time: 1000});
+}
+});
+return false;
+});
+form.on('submit(user_setss)', function(data){
+loading = layer.load(2, {
+shade: [0.2,'#000']
+});
+var param = data.field;
+jq.post('{:url("index/user/setss")}',param,function(data){
+if(data.code == 200){
+layer.close(loading);
+layer.msg(data.msg, {icon: 1, time: 1000}, function(){
+location.href = '{:url("index/user/set")}';
+});
+}else{
+layer.close(loading);
+layer.msg(data.msg, {icon: 2, anim: 6, time: 1000});
+}
+});
+return false;
+});
+form.on('submit(user_headedit)', function(data){
+loading = layer.load(2, {
+shade: [0.2,'#000']
+});
+var param = data.field;
+jq.post('{:url("index/user/headedit")}',param,function(data){
+if(data.code == 200){
+layer.close(loading);
+layer.msg(data.msg, {icon: 1, time: 1000}, function(){
+location.href = '{:url("index/user/set")}';
+});
+}else{
+layer.close(loading);
+layer.msg(data.msg, {icon: 2, anim: 6, time: 1000});
+}
+});
+return false;
+});
+form.on('submit(user_pass)', function(data){
+loading = layer.load(2, {
+shade: [0.2,'#000']
+});
+var param = data.field;
+jq.post('{:url("index/user/pass")}',param,function(data){
+if(data.code == 200){
+layer.close(loading);
+layer.msg(data.msg, {icon: 1, time: 1000}, function(){
+location.href = '{:url("index/user/set")}';
+});
+}else{
+layer.close(loading);
+layer.msg(data.msg, {icon: 2, anim: 6, time: 1000});
+}
+});
+return false;
+});
+});
+</script>
+{include file="index/footer"}
+</body>
+</html>

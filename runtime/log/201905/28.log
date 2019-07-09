@@ -1,0 +1,1973 @@
+---------------------------------------------------------------
+[ 2019-05-28T00:00:24+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] www.adgzs.top/ [运行时间：0.568578s][吞吐率：1.76req/s] [内存消耗：3,082.69kb] [文件加载：62]
+[ info ] [ LANG ] E:\xampp\htdocs\blog\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.adgzs.top',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.adgzs.top/thread/28.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__cfduid=dff3ce406800f1996f1ecf279703c6d4e1558492825; UM_distinctid=16add780dc6c0-0c0a00978979ee-5d4e211f-c0000-16add780dc716b; CNZZDATA1257137757=248594716-1558488991-%7C1558522912; Hm_lvt_136bd7aac0d158dec628add4b8dd4c3a=1558423559,1558636392; Hm_lpvt_136bd7aac0d158dec628add4b8dd4c3a=1558918032; style=qingshuang; PHPSESSID=73f7j5cfr355jib9mt88fsibbc; __qc_wId=511; pgv_pvid=8616528835; __qc__k=',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\xampp\htdocs\blog\application\index\controller\Index.php ]
+[ info ] [ VIEW ] ./template/default/index_index.html [ array (
+  0 => 'tptca',
+  1 => 'tptcm',
+  2 => 'tptcc',
+  3 => 'tptm',
+  4 => 'tptl',
+  5 => 'tpte',
+  6 => 'tptf',
+  7 => 'tptb',
+  8 => 'tagss',
+  9 => 'tptop',
+  10 => 'tptops',
+  11 => 'tptuser',
+  12 => 'tptc',
+  13 => 'tptcs',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-05-28T00:00:25+08:00 ] 127.0.0.1 127.0.0.1 GET /uploads/20180224/e05b5a98dca16a9a84f576752dfb8bad.jpg
+[ info ] www.adgzs.top/uploads/20180224/e05b5a98dca16a9a84f576752dfb8bad.jpg [运行时间：0.193434s][吞吐率：5.17req/s] [内存消耗：1,610.56kb] [文件加载：44]
+[ info ] [ LANG ] E:\xampp\htdocs\blog\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'uploads',
+    2 => '20180224',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.adgzs.top',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://www.adgzs.top/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__cfduid=dff3ce406800f1996f1ecf279703c6d4e1558492825; UM_distinctid=16add780dc6c0-0c0a00978979ee-5d4e211f-c0000-16add780dc716b; CNZZDATA1257137757=248594716-1558488991-%7C1558522912; Hm_lvt_136bd7aac0d158dec628add4b8dd4c3a=1558423559,1558636392; Hm_lpvt_136bd7aac0d158dec628add4b8dd4c3a=1558918032; style=qingshuang; PHPSESSID=73f7j5cfr355jib9mt88fsibbc; __qc_wId=511; pgv_pvid=8616528835; __qc__k=',
+)
+[ info ] [ PARAM ] array (
+  '/uploads/20180224/e05b5a98dca16a9a84f576752dfb8bad_jpg' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-05-28T16:16:57+08:00 ] 127.0.0.1 127.0.0.1 GET /web/index.php?c=cloud&a=sms&
+[ info ] www.adgzs.top/web/index.php?c=cloud&a=sms& [运行时间：0.996875s][吞吐率：1.00req/s] [内存消耗：1,613.55kb] [文件加载：44]
+[ info ] [ LANG ] E:\xampp\htdocs\blog\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'web',
+    2 => 'index.php',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.adgzs.top',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.adgzs.top/web/index.php?c=system&a=template&',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__cfduid=dff3ce406800f1996f1ecf279703c6d4e1558492825; UM_distinctid=16add780dc6c0-0c0a00978979ee-5d4e211f-c0000-16add780dc716b; CNZZDATA1257137757=248594716-1558488991-%7C1558522912; Hm_lvt_136bd7aac0d158dec628add4b8dd4c3a=1558423559,1558636392; Hm_lpvt_136bd7aac0d158dec628add4b8dd4c3a=1558918032; style=qingshuang; PHPSESSID=73f7j5cfr355jib9mt88fsibbc; __qc_wId=511; pgv_pvid=8616528835; __qc__k=; we7install_cdn_source_size=20227410; OzJ2___session=3eb3QhAE5Psf%2Fg9jZxetv3G%2BL8HQWxC66d%2FtlOfy%2B3Qn%2B5l4EQG1u5b1YqhbDdDnG6le3w7F1TxZNM5dpm9d4umaE95h6WEjAofm9rZijVztC3oWG7U7ST4a1WT9Ovkorc3c3eO7ZDg7Gfzz3wQ; we7install_accesstoken=%7B%22accessToken%22%3A%22kSDctJzZ3s3Trg1IOkO3cbCso4TeK3iG3o13Me3odOMCcoITDcms3oDrM1cUGOJc%22%2C%22expireTime%22%3A1559038051%7D; Tk9U___session=65a4x%2B%2B9ws06mEynZ%2FX%2FAHNuNFuMYHULO9QeU3D6HvvAE3v80Z11w%2Bzx5TBTxvF8fMKUxWm337t5az0SIDQUYV%2Ft427%2BRyloT2SA7mv0PJUjNaujB8zLdn39ltiAl4fvaJxAtXjPynmJ76ogLQ; Tk9U___lastvisit_1=%2Chttp%3A//www.adgzs.top/web/index.php%3Fc%3Dsystem%26a%3Dsite; Tk9U___notice=1559053776; Tk9U_jsMenuScroll=; OzJ2___lastvisit_1=%2Chttp%3A//www.adgzs.top/web/index.php%3Fc%3Dcloud%26a%3Dsms; OzJ2_jsMenuScroll=; OzJ2___notice=1559054451',
+)
+[ info ] [ PARAM ] array (
+  '/web/index_php' => '',
+  'c' => 'cloud',
+  'a' => 'sms',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-05-28T16:17:13+08:00 ] 127.0.0.1 127.0.0.1 GET /web/index.php
+[ info ] www.adgzs.top/web/index.php [运行时间：0.068439s][吞吐率：14.61req/s] [内存消耗：1,612.49kb] [文件加载：44]
+[ info ] [ LANG ] E:\xampp\htdocs\blog\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'web',
+    2 => 'index.php',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.adgzs.top',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__cfduid=dff3ce406800f1996f1ecf279703c6d4e1558492825; UM_distinctid=16add780dc6c0-0c0a00978979ee-5d4e211f-c0000-16add780dc716b; CNZZDATA1257137757=248594716-1558488991-%7C1558522912; Hm_lvt_136bd7aac0d158dec628add4b8dd4c3a=1558423559,1558636392; Hm_lpvt_136bd7aac0d158dec628add4b8dd4c3a=1558918032; style=qingshuang; PHPSESSID=73f7j5cfr355jib9mt88fsibbc; __qc_wId=511; pgv_pvid=8616528835; __qc__k=; we7install_cdn_source_size=20227410; OzJ2___session=3eb3QhAE5Psf%2Fg9jZxetv3G%2BL8HQWxC66d%2FtlOfy%2B3Qn%2B5l4EQG1u5b1YqhbDdDnG6le3w7F1TxZNM5dpm9d4umaE95h6WEjAofm9rZijVztC3oWG7U7ST4a1WT9Ovkorc3c3eO7ZDg7Gfzz3wQ; we7install_accesstoken=%7B%22accessToken%22%3A%22kSDctJzZ3s3Trg1IOkO3cbCso4TeK3iG3o13Me3odOMCcoITDcms3oDrM1cUGOJc%22%2C%22expireTime%22%3A1559038051%7D; Tk9U___session=65a4x%2B%2B9ws06mEynZ%2FX%2FAHNuNFuMYHULO9QeU3D6HvvAE3v80Z11w%2Bzx5TBTxvF8fMKUxWm337t5az0SIDQUYV%2Ft427%2BRyloT2SA7mv0PJUjNaujB8zLdn39ltiAl4fvaJxAtXjPynmJ76ogLQ; Tk9U___lastvisit_1=%2Chttp%3A//www.adgzs.top/web/index.php%3Fc%3Dsystem%26a%3Dsite; Tk9U___notice=1559053776; Tk9U_jsMenuScroll=; OzJ2___lastvisit_1=%2Chttp%3A//www.adgzs.top/web/index.php%3Fc%3Dcloud%26a%3Dsms; OzJ2_jsMenuScroll=; OzJ2___notice=1559054451',
+)
+[ info ] [ PARAM ] array (
+  '/web/index_php' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-05-28T16:17:25+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php
+[ info ] www.adgzs.top/index.php [运行时间：1.544504s][吞吐率：0.65req/s] [内存消耗：2,927.86kb] [文件加载：60]
+[ info ] [ LANG ] E:\xampp\htdocs\blog\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.adgzs.top',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__cfduid=dff3ce406800f1996f1ecf279703c6d4e1558492825; UM_distinctid=16add780dc6c0-0c0a00978979ee-5d4e211f-c0000-16add780dc716b; CNZZDATA1257137757=248594716-1558488991-%7C1558522912; Hm_lvt_136bd7aac0d158dec628add4b8dd4c3a=1558423559,1558636392; Hm_lpvt_136bd7aac0d158dec628add4b8dd4c3a=1558918032; style=qingshuang; PHPSESSID=73f7j5cfr355jib9mt88fsibbc; __qc_wId=511; pgv_pvid=8616528835; __qc__k=; we7install_cdn_source_size=20227410; OzJ2___session=3eb3QhAE5Psf%2Fg9jZxetv3G%2BL8HQWxC66d%2FtlOfy%2B3Qn%2B5l4EQG1u5b1YqhbDdDnG6le3w7F1TxZNM5dpm9d4umaE95h6WEjAofm9rZijVztC3oWG7U7ST4a1WT9Ovkorc3c3eO7ZDg7Gfzz3wQ; we7install_accesstoken=%7B%22accessToken%22%3A%22kSDctJzZ3s3Trg1IOkO3cbCso4TeK3iG3o13Me3odOMCcoITDcms3oDrM1cUGOJc%22%2C%22expireTime%22%3A1559038051%7D; Tk9U___session=65a4x%2B%2B9ws06mEynZ%2FX%2FAHNuNFuMYHULO9QeU3D6HvvAE3v80Z11w%2Bzx5TBTxvF8fMKUxWm337t5az0SIDQUYV%2Ft427%2BRyloT2SA7mv0PJUjNaujB8zLdn39ltiAl4fvaJxAtXjPynmJ76ogLQ; Tk9U___lastvisit_1=%2Chttp%3A//www.adgzs.top/web/index.php%3Fc%3Dsystem%26a%3Dsite; Tk9U___notice=1559053776; Tk9U_jsMenuScroll=; OzJ2___lastvisit_1=%2Chttp%3A//www.adgzs.top/web/index.php%3Fc%3Dcloud%26a%3Dsms; OzJ2_jsMenuScroll=; OzJ2___notice=1559054451',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\xampp\htdocs\blog\application\index\controller\Index.php ]
+[ info ] [ VIEW ] ./template/default/index_index.html [ array (
+  0 => 'tptca',
+  1 => 'tptcm',
+  2 => 'tptcc',
+  3 => 'tptm',
+  4 => 'tptl',
+  5 => 'tpte',
+  6 => 'tptf',
+  7 => 'tptb',
+  8 => 'tagss',
+  9 => 'tptop',
+  10 => 'tptops',
+  11 => 'tptuser',
+  12 => 'tptc',
+  13 => 'tptcs',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-05-28T16:17:26+08:00 ] 127.0.0.1 127.0.0.1 GET /uploads/20180224/e05b5a98dca16a9a84f576752dfb8bad.jpg
+[ info ] www.adgzs.top/uploads/20180224/e05b5a98dca16a9a84f576752dfb8bad.jpg [运行时间：0.078089s][吞吐率：12.81req/s] [内存消耗：1,612.55kb] [文件加载：44]
+[ info ] [ LANG ] E:\xampp\htdocs\blog\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'uploads',
+    2 => '20180224',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.adgzs.top',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://www.adgzs.top/index.php',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__cfduid=dff3ce406800f1996f1ecf279703c6d4e1558492825; UM_distinctid=16add780dc6c0-0c0a00978979ee-5d4e211f-c0000-16add780dc716b; CNZZDATA1257137757=248594716-1558488991-%7C1558522912; Hm_lvt_136bd7aac0d158dec628add4b8dd4c3a=1558423559,1558636392; Hm_lpvt_136bd7aac0d158dec628add4b8dd4c3a=1558918032; style=qingshuang; PHPSESSID=73f7j5cfr355jib9mt88fsibbc; __qc_wId=511; pgv_pvid=8616528835; __qc__k=; we7install_cdn_source_size=20227410; OzJ2___session=3eb3QhAE5Psf%2Fg9jZxetv3G%2BL8HQWxC66d%2FtlOfy%2B3Qn%2B5l4EQG1u5b1YqhbDdDnG6le3w7F1TxZNM5dpm9d4umaE95h6WEjAofm9rZijVztC3oWG7U7ST4a1WT9Ovkorc3c3eO7ZDg7Gfzz3wQ; we7install_accesstoken=%7B%22accessToken%22%3A%22kSDctJzZ3s3Trg1IOkO3cbCso4TeK3iG3o13Me3odOMCcoITDcms3oDrM1cUGOJc%22%2C%22expireTime%22%3A1559038051%7D; Tk9U___session=65a4x%2B%2B9ws06mEynZ%2FX%2FAHNuNFuMYHULO9QeU3D6HvvAE3v80Z11w%2Bzx5TBTxvF8fMKUxWm337t5az0SIDQUYV%2Ft427%2BRyloT2SA7mv0PJUjNaujB8zLdn39ltiAl4fvaJxAtXjPynmJ76ogLQ; Tk9U___lastvisit_1=%2Chttp%3A//www.adgzs.top/web/index.php%3Fc%3Dsystem%26a%3Dsite; Tk9U___notice=1559053776; Tk9U_jsMenuScroll=; OzJ2___lastvisit_1=%2Chttp%3A//www.adgzs.top/web/index.php%3Fc%3Dcloud%26a%3Dsms; OzJ2_jsMenuScroll=; OzJ2___notice=1559054451',
+)
+[ info ] [ PARAM ] array (
+  '/uploads/20180224/e05b5a98dca16a9a84f576752dfb8bad_jpg' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-05-28T16:18:40+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php?page=2
+[ info ] www.adgzs.top/index.php?page=2 [运行时间：0.430084s][吞吐率：2.33req/s] [内存消耗：2,959.67kb] [文件加载：60]
+[ info ] [ LANG ] E:\xampp\htdocs\blog\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.adgzs.top',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.adgzs.top/index.php',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__cfduid=dff3ce406800f1996f1ecf279703c6d4e1558492825; UM_distinctid=16add780dc6c0-0c0a00978979ee-5d4e211f-c0000-16add780dc716b; CNZZDATA1257137757=248594716-1558488991-%7C1558522912; Hm_lvt_136bd7aac0d158dec628add4b8dd4c3a=1558423559,1558636392; Hm_lpvt_136bd7aac0d158dec628add4b8dd4c3a=1558918032; style=qingshuang; PHPSESSID=73f7j5cfr355jib9mt88fsibbc; __qc_wId=511; pgv_pvid=8616528835; __qc__k=; we7install_cdn_source_size=20227410; OzJ2___session=3eb3QhAE5Psf%2Fg9jZxetv3G%2BL8HQWxC66d%2FtlOfy%2B3Qn%2B5l4EQG1u5b1YqhbDdDnG6le3w7F1TxZNM5dpm9d4umaE95h6WEjAofm9rZijVztC3oWG7U7ST4a1WT9Ovkorc3c3eO7ZDg7Gfzz3wQ; we7install_accesstoken=%7B%22accessToken%22%3A%22kSDctJzZ3s3Trg1IOkO3cbCso4TeK3iG3o13Me3odOMCcoITDcms3oDrM1cUGOJc%22%2C%22expireTime%22%3A1559038051%7D; Tk9U___session=65a4x%2B%2B9ws06mEynZ%2FX%2FAHNuNFuMYHULO9QeU3D6HvvAE3v80Z11w%2Bzx5TBTxvF8fMKUxWm337t5az0SIDQUYV%2Ft427%2BRyloT2SA7mv0PJUjNaujB8zLdn39ltiAl4fvaJxAtXjPynmJ76ogLQ; Tk9U___lastvisit_1=%2Chttp%3A//www.adgzs.top/web/index.php%3Fc%3Dsystem%26a%3Dsite; Tk9U___notice=1559053776; Tk9U_jsMenuScroll=; OzJ2___lastvisit_1=%2Chttp%3A//www.adgzs.top/web/index.php%3Fc%3Dcloud%26a%3Dsms; OzJ2_jsMenuScroll=; OzJ2___notice=1559054451',
+)
+[ info ] [ PARAM ] array (
+  'page' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\xampp\htdocs\blog\application\index\controller\Index.php ]
+[ info ] [ VIEW ] ./template/default/index_index.html [ array (
+  0 => 'tptca',
+  1 => 'tptcm',
+  2 => 'tptcc',
+  3 => 'tptm',
+  4 => 'tptl',
+  5 => 'tpte',
+  6 => 'tptf',
+  7 => 'tptb',
+  8 => 'tagss',
+  9 => 'tptop',
+  10 => 'tptops',
+  11 => 'tptuser',
+  12 => 'tptc',
+  13 => 'tptcs',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-05-28T16:18:40+08:00 ] 127.0.0.1 127.0.0.1 GET /uploads/20180224/e05b5a98dca16a9a84f576752dfb8bad.jpg
+[ info ] www.adgzs.top/uploads/20180224/e05b5a98dca16a9a84f576752dfb8bad.jpg [运行时间：0.128036s][吞吐率：7.81req/s] [内存消耗：1,612.55kb] [文件加载：44]
+[ info ] [ LANG ] E:\xampp\htdocs\blog\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'uploads',
+    2 => '20180224',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.adgzs.top',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://www.adgzs.top/index.php?page=2',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__cfduid=dff3ce406800f1996f1ecf279703c6d4e1558492825; UM_distinctid=16add780dc6c0-0c0a00978979ee-5d4e211f-c0000-16add780dc716b; CNZZDATA1257137757=248594716-1558488991-%7C1558522912; Hm_lvt_136bd7aac0d158dec628add4b8dd4c3a=1558423559,1558636392; Hm_lpvt_136bd7aac0d158dec628add4b8dd4c3a=1558918032; style=qingshuang; PHPSESSID=73f7j5cfr355jib9mt88fsibbc; __qc_wId=511; pgv_pvid=8616528835; __qc__k=; we7install_cdn_source_size=20227410; OzJ2___session=3eb3QhAE5Psf%2Fg9jZxetv3G%2BL8HQWxC66d%2FtlOfy%2B3Qn%2B5l4EQG1u5b1YqhbDdDnG6le3w7F1TxZNM5dpm9d4umaE95h6WEjAofm9rZijVztC3oWG7U7ST4a1WT9Ovkorc3c3eO7ZDg7Gfzz3wQ; we7install_accesstoken=%7B%22accessToken%22%3A%22kSDctJzZ3s3Trg1IOkO3cbCso4TeK3iG3o13Me3odOMCcoITDcms3oDrM1cUGOJc%22%2C%22expireTime%22%3A1559038051%7D; Tk9U___session=65a4x%2B%2B9ws06mEynZ%2FX%2FAHNuNFuMYHULO9QeU3D6HvvAE3v80Z11w%2Bzx5TBTxvF8fMKUxWm337t5az0SIDQUYV%2Ft427%2BRyloT2SA7mv0PJUjNaujB8zLdn39ltiAl4fvaJxAtXjPynmJ76ogLQ; Tk9U___lastvisit_1=%2Chttp%3A//www.adgzs.top/web/index.php%3Fc%3Dsystem%26a%3Dsite; Tk9U___notice=1559053776; Tk9U_jsMenuScroll=; OzJ2___lastvisit_1=%2Chttp%3A//www.adgzs.top/web/index.php%3Fc%3Dcloud%26a%3Dsms; OzJ2_jsMenuScroll=; OzJ2___notice=1559054451',
+)
+[ info ] [ PARAM ] array (
+  '/uploads/20180224/e05b5a98dca16a9a84f576752dfb8bad_jpg' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-05-28T16:18:41+08:00 ] 127.0.0.1 127.0.0.1 GET /'+data[i].pPic+'
+[ info ] www.adgzs.top/'+data[i].pPic+' [运行时间：0.120913s][吞吐率：8.27req/s] [内存消耗：1,612.40kb] [文件加载：44]
+[ info ] [ LANG ] E:\xampp\htdocs\blog\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => '\'+data[i].pPic+\'',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.adgzs.top',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://www.adgzs.top/index.php?page=2',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__cfduid=dff3ce406800f1996f1ecf279703c6d4e1558492825; UM_distinctid=16add780dc6c0-0c0a00978979ee-5d4e211f-c0000-16add780dc716b; CNZZDATA1257137757=248594716-1558488991-%7C1558522912; Hm_lvt_136bd7aac0d158dec628add4b8dd4c3a=1558423559,1558636392; Hm_lpvt_136bd7aac0d158dec628add4b8dd4c3a=1558918032; style=qingshuang; PHPSESSID=73f7j5cfr355jib9mt88fsibbc; __qc_wId=511; pgv_pvid=8616528835; __qc__k=; we7install_cdn_source_size=20227410; OzJ2___session=3eb3QhAE5Psf%2Fg9jZxetv3G%2BL8HQWxC66d%2FtlOfy%2B3Qn%2B5l4EQG1u5b1YqhbDdDnG6le3w7F1TxZNM5dpm9d4umaE95h6WEjAofm9rZijVztC3oWG7U7ST4a1WT9Ovkorc3c3eO7ZDg7Gfzz3wQ; we7install_accesstoken=%7B%22accessToken%22%3A%22kSDctJzZ3s3Trg1IOkO3cbCso4TeK3iG3o13Me3odOMCcoITDcms3oDrM1cUGOJc%22%2C%22expireTime%22%3A1559038051%7D; Tk9U___session=65a4x%2B%2B9ws06mEynZ%2FX%2FAHNuNFuMYHULO9QeU3D6HvvAE3v80Z11w%2Bzx5TBTxvF8fMKUxWm337t5az0SIDQUYV%2Ft427%2BRyloT2SA7mv0PJUjNaujB8zLdn39ltiAl4fvaJxAtXjPynmJ76ogLQ; Tk9U___lastvisit_1=%2Chttp%3A//www.adgzs.top/web/index.php%3Fc%3Dsystem%26a%3Dsite; Tk9U___notice=1559053776; Tk9U_jsMenuScroll=; OzJ2___lastvisit_1=%2Chttp%3A//www.adgzs.top/web/index.php%3Fc%3Dcloud%26a%3Dsms; OzJ2_jsMenuScroll=; OzJ2___notice=1559054451',
+)
+[ info ] [ PARAM ] array (
+  '/\'_data' => 
+  array (
+    'i' => '',
+  ),
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-05-28T16:18:49+08:00 ] 127.0.0.1 127.0.0.1 GET /thread/20.html
+[ info ] www.adgzs.top/thread/20.html [运行时间：0.943381s][吞吐率：1.06req/s] [内存消耗：3,046.84kb] [文件加载：62]
+[ info ] [ LANG ] E:\xampp\htdocs\blog\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'thread',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.adgzs.top',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.adgzs.top/index.php?page=2',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__cfduid=dff3ce406800f1996f1ecf279703c6d4e1558492825; UM_distinctid=16add780dc6c0-0c0a00978979ee-5d4e211f-c0000-16add780dc716b; CNZZDATA1257137757=248594716-1558488991-%7C1558522912; Hm_lvt_136bd7aac0d158dec628add4b8dd4c3a=1558423559,1558636392; Hm_lpvt_136bd7aac0d158dec628add4b8dd4c3a=1558918032; style=qingshuang; PHPSESSID=73f7j5cfr355jib9mt88fsibbc; __qc_wId=511; pgv_pvid=8616528835; __qc__k=; we7install_cdn_source_size=20227410; OzJ2___session=3eb3QhAE5Psf%2Fg9jZxetv3G%2BL8HQWxC66d%2FtlOfy%2B3Qn%2B5l4EQG1u5b1YqhbDdDnG6le3w7F1TxZNM5dpm9d4umaE95h6WEjAofm9rZijVztC3oWG7U7ST4a1WT9Ovkorc3c3eO7ZDg7Gfzz3wQ; we7install_accesstoken=%7B%22accessToken%22%3A%22kSDctJzZ3s3Trg1IOkO3cbCso4TeK3iG3o13Me3odOMCcoITDcms3oDrM1cUGOJc%22%2C%22expireTime%22%3A1559038051%7D; Tk9U___session=65a4x%2B%2B9ws06mEynZ%2FX%2FAHNuNFuMYHULO9QeU3D6HvvAE3v80Z11w%2Bzx5TBTxvF8fMKUxWm337t5az0SIDQUYV%2Ft427%2BRyloT2SA7mv0PJUjNaujB8zLdn39ltiAl4fvaJxAtXjPynmJ76ogLQ; Tk9U___lastvisit_1=%2Chttp%3A//www.adgzs.top/web/index.php%3Fc%3Dsystem%26a%3Dsite; Tk9U___notice=1559053776; Tk9U_jsMenuScroll=; OzJ2___lastvisit_1=%2Chttp%3A//www.adgzs.top/web/index.php%3Fc%3Dcloud%26a%3Dsms; OzJ2_jsMenuScroll=; OzJ2___notice=1559054451',
+)
+[ info ] [ PARAM ] array (
+  '/thread/20_html' => '',
+  'id' => '20',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->thread[ E:\xampp\htdocs\blog\application\index\controller\Index.php ]
+[ info ] [ VIEW ] ./template/default/index_thread.html [ array (
+  0 => 'tptca',
+  1 => 'tptcm',
+  2 => 'tptcc',
+  3 => 'tptm',
+  4 => 'tptl',
+  5 => 'tpte',
+  6 => 'tptf',
+  7 => 'tptb',
+  8 => 'tagss',
+  9 => 'tptop',
+  10 => 'tptops',
+  11 => 'tptuser',
+  12 => 'tptc',
+  13 => 'tptt',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-05-28T16:18:49+08:00 ] 127.0.0.1 127.0.0.1 GET /uploads/20180224/e05b5a98dca16a9a84f576752dfb8bad.jpg
+[ info ] www.adgzs.top/uploads/20180224/e05b5a98dca16a9a84f576752dfb8bad.jpg [运行时间：0.060637s][吞吐率：16.49req/s] [内存消耗：1,612.55kb] [文件加载：44]
+[ info ] [ LANG ] E:\xampp\htdocs\blog\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'uploads',
+    2 => '20180224',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.adgzs.top',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://www.adgzs.top/thread/20.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__cfduid=dff3ce406800f1996f1ecf279703c6d4e1558492825; UM_distinctid=16add780dc6c0-0c0a00978979ee-5d4e211f-c0000-16add780dc716b; CNZZDATA1257137757=248594716-1558488991-%7C1558522912; Hm_lvt_136bd7aac0d158dec628add4b8dd4c3a=1558423559,1558636392; Hm_lpvt_136bd7aac0d158dec628add4b8dd4c3a=1558918032; style=qingshuang; PHPSESSID=73f7j5cfr355jib9mt88fsibbc; __qc_wId=511; pgv_pvid=8616528835; __qc__k=; we7install_cdn_source_size=20227410; OzJ2___session=3eb3QhAE5Psf%2Fg9jZxetv3G%2BL8HQWxC66d%2FtlOfy%2B3Qn%2B5l4EQG1u5b1YqhbDdDnG6le3w7F1TxZNM5dpm9d4umaE95h6WEjAofm9rZijVztC3oWG7U7ST4a1WT9Ovkorc3c3eO7ZDg7Gfzz3wQ; we7install_accesstoken=%7B%22accessToken%22%3A%22kSDctJzZ3s3Trg1IOkO3cbCso4TeK3iG3o13Me3odOMCcoITDcms3oDrM1cUGOJc%22%2C%22expireTime%22%3A1559038051%7D; Tk9U___session=65a4x%2B%2B9ws06mEynZ%2FX%2FAHNuNFuMYHULO9QeU3D6HvvAE3v80Z11w%2Bzx5TBTxvF8fMKUxWm337t5az0SIDQUYV%2Ft427%2BRyloT2SA7mv0PJUjNaujB8zLdn39ltiAl4fvaJxAtXjPynmJ76ogLQ; Tk9U___lastvisit_1=%2Chttp%3A//www.adgzs.top/web/index.php%3Fc%3Dsystem%26a%3Dsite; Tk9U___notice=1559053776; Tk9U_jsMenuScroll=; OzJ2___lastvisit_1=%2Chttp%3A//www.adgzs.top/web/index.php%3Fc%3Dcloud%26a%3Dsms; OzJ2_jsMenuScroll=; OzJ2___notice=1559054451',
+)
+[ info ] [ PARAM ] array (
+  '/uploads/20180224/e05b5a98dca16a9a84f576752dfb8bad_jpg' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-05-28T16:36:48+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] www.adgzs.top/ [运行时间：0.469367s][吞吐率：2.13req/s] [内存消耗：2,928.71kb] [文件加载：60]
+[ info ] [ LANG ] E:\xampp\htdocs\blog\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.adgzs.top',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.adgzs.top/thread/20.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__cfduid=dff3ce406800f1996f1ecf279703c6d4e1558492825; UM_distinctid=16add780dc6c0-0c0a00978979ee-5d4e211f-c0000-16add780dc716b; CNZZDATA1257137757=248594716-1558488991-%7C1558522912; Hm_lvt_136bd7aac0d158dec628add4b8dd4c3a=1558423559,1558636392; Hm_lpvt_136bd7aac0d158dec628add4b8dd4c3a=1558918032; style=qingshuang; PHPSESSID=73f7j5cfr355jib9mt88fsibbc; __qc_wId=511; pgv_pvid=8616528835; __qc__k=; we7install_cdn_source_size=20227410; OzJ2___session=3eb3QhAE5Psf%2Fg9jZxetv3G%2BL8HQWxC66d%2FtlOfy%2B3Qn%2B5l4EQG1u5b1YqhbDdDnG6le3w7F1TxZNM5dpm9d4umaE95h6WEjAofm9rZijVztC3oWG7U7ST4a1WT9Ovkorc3c3eO7ZDg7Gfzz3wQ; we7install_accesstoken=%7B%22accessToken%22%3A%22kSDctJzZ3s3Trg1IOkO3cbCso4TeK3iG3o13Me3odOMCcoITDcms3oDrM1cUGOJc%22%2C%22expireTime%22%3A1559038051%7D; Tk9U___session=65a4x%2B%2B9ws06mEynZ%2FX%2FAHNuNFuMYHULO9QeU3D6HvvAE3v80Z11w%2Bzx5TBTxvF8fMKUxWm337t5az0SIDQUYV%2Ft427%2BRyloT2SA7mv0PJUjNaujB8zLdn39ltiAl4fvaJxAtXjPynmJ76ogLQ; Tk9U___lastvisit_1=%2Chttp%3A//www.adgzs.top/web/index.php%3Fc%3Dsystem%26a%3Dsite; Tk9U___notice=1559053776; Tk9U_jsMenuScroll=; OzJ2___lastvisit_1=%2Chttp%3A//www.adgzs.top/web/index.php%3Fc%3Dcloud%26a%3Dsms; OzJ2_jsMenuScroll=; OzJ2___notice=1559054451',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\xampp\htdocs\blog\application\index\controller\Index.php ]
+[ info ] [ VIEW ] ./template/default/index_index.html [ array (
+  0 => 'tptca',
+  1 => 'tptcm',
+  2 => 'tptcc',
+  3 => 'tptm',
+  4 => 'tptl',
+  5 => 'tpte',
+  6 => 'tptf',
+  7 => 'tptb',
+  8 => 'tagss',
+  9 => 'tptop',
+  10 => 'tptops',
+  11 => 'tptuser',
+  12 => 'tptc',
+  13 => 'tptcs',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-05-28T16:36:48+08:00 ] 127.0.0.1 127.0.0.1 GET /uploads/20180224/e05b5a98dca16a9a84f576752dfb8bad.jpg
+[ info ] www.adgzs.top/uploads/20180224/e05b5a98dca16a9a84f576752dfb8bad.jpg [运行时间：0.098335s][吞吐率：10.17req/s] [内存消耗：1,612.54kb] [文件加载：44]
+[ info ] [ LANG ] E:\xampp\htdocs\blog\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'uploads',
+    2 => '20180224',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.adgzs.top',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://www.adgzs.top/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__cfduid=dff3ce406800f1996f1ecf279703c6d4e1558492825; UM_distinctid=16add780dc6c0-0c0a00978979ee-5d4e211f-c0000-16add780dc716b; CNZZDATA1257137757=248594716-1558488991-%7C1558522912; Hm_lvt_136bd7aac0d158dec628add4b8dd4c3a=1558423559,1558636392; Hm_lpvt_136bd7aac0d158dec628add4b8dd4c3a=1558918032; style=qingshuang; PHPSESSID=73f7j5cfr355jib9mt88fsibbc; __qc_wId=511; pgv_pvid=8616528835; __qc__k=; we7install_cdn_source_size=20227410; OzJ2___session=3eb3QhAE5Psf%2Fg9jZxetv3G%2BL8HQWxC66d%2FtlOfy%2B3Qn%2B5l4EQG1u5b1YqhbDdDnG6le3w7F1TxZNM5dpm9d4umaE95h6WEjAofm9rZijVztC3oWG7U7ST4a1WT9Ovkorc3c3eO7ZDg7Gfzz3wQ; we7install_accesstoken=%7B%22accessToken%22%3A%22kSDctJzZ3s3Trg1IOkO3cbCso4TeK3iG3o13Me3odOMCcoITDcms3oDrM1cUGOJc%22%2C%22expireTime%22%3A1559038051%7D; Tk9U___session=65a4x%2B%2B9ws06mEynZ%2FX%2FAHNuNFuMYHULO9QeU3D6HvvAE3v80Z11w%2Bzx5TBTxvF8fMKUxWm337t5az0SIDQUYV%2Ft427%2BRyloT2SA7mv0PJUjNaujB8zLdn39ltiAl4fvaJxAtXjPynmJ76ogLQ; Tk9U___lastvisit_1=%2Chttp%3A//www.adgzs.top/web/index.php%3Fc%3Dsystem%26a%3Dsite; Tk9U___notice=1559053776; Tk9U_jsMenuScroll=; OzJ2___lastvisit_1=%2Chttp%3A//www.adgzs.top/web/index.php%3Fc%3Dcloud%26a%3Dsms; OzJ2_jsMenuScroll=; OzJ2___notice=1559054451',
+)
+[ info ] [ PARAM ] array (
+  '/uploads/20180224/e05b5a98dca16a9a84f576752dfb8bad_jpg' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-05-28T16:36:48+08:00 ] 127.0.0.1 127.0.0.1 GET /uploads/20180224/e05b5a98dca16a9a84f576752dfb8bad.jpg
+[ info ] www.adgzs.top/uploads/20180224/e05b5a98dca16a9a84f576752dfb8bad.jpg [运行时间：0.159294s][吞吐率：6.28req/s] [内存消耗：1,612.54kb] [文件加载：44]
+[ info ] [ LANG ] E:\xampp\htdocs\blog\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'uploads',
+    2 => '20180224',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.adgzs.top',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://www.adgzs.top/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__cfduid=dff3ce406800f1996f1ecf279703c6d4e1558492825; UM_distinctid=16add780dc6c0-0c0a00978979ee-5d4e211f-c0000-16add780dc716b; CNZZDATA1257137757=248594716-1558488991-%7C1558522912; Hm_lvt_136bd7aac0d158dec628add4b8dd4c3a=1558423559,1558636392; Hm_lpvt_136bd7aac0d158dec628add4b8dd4c3a=1558918032; style=qingshuang; PHPSESSID=73f7j5cfr355jib9mt88fsibbc; __qc_wId=511; pgv_pvid=8616528835; __qc__k=; we7install_cdn_source_size=20227410; OzJ2___session=3eb3QhAE5Psf%2Fg9jZxetv3G%2BL8HQWxC66d%2FtlOfy%2B3Qn%2B5l4EQG1u5b1YqhbDdDnG6le3w7F1TxZNM5dpm9d4umaE95h6WEjAofm9rZijVztC3oWG7U7ST4a1WT9Ovkorc3c3eO7ZDg7Gfzz3wQ; we7install_accesstoken=%7B%22accessToken%22%3A%22kSDctJzZ3s3Trg1IOkO3cbCso4TeK3iG3o13Me3odOMCcoITDcms3oDrM1cUGOJc%22%2C%22expireTime%22%3A1559038051%7D; Tk9U___session=65a4x%2B%2B9ws06mEynZ%2FX%2FAHNuNFuMYHULO9QeU3D6HvvAE3v80Z11w%2Bzx5TBTxvF8fMKUxWm337t5az0SIDQUYV%2Ft427%2BRyloT2SA7mv0PJUjNaujB8zLdn39ltiAl4fvaJxAtXjPynmJ76ogLQ; Tk9U___lastvisit_1=%2Chttp%3A//www.adgzs.top/web/index.php%3Fc%3Dsystem%26a%3Dsite; Tk9U___notice=1559053776; Tk9U_jsMenuScroll=; OzJ2___lastvisit_1=%2Chttp%3A//www.adgzs.top/web/index.php%3Fc%3Dcloud%26a%3Dsms; OzJ2_jsMenuScroll=; OzJ2___notice=1559054451',
+)
+[ info ] [ PARAM ] array (
+  '/uploads/20180224/e05b5a98dca16a9a84f576752dfb8bad_jpg' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-05-28T16:37:57+08:00 ] 127.0.0.1 127.0.0.1 GET /view/8.html
+[ info ] www.adgzs.top/view/8.html [运行时间：3.404108s][吞吐率：0.29req/s] [内存消耗：3,046.18kb] [文件加载：62]
+[ info ] [ LANG ] E:\xampp\htdocs\blog\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'view',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.adgzs.top',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.adgzs.top/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__cfduid=dff3ce406800f1996f1ecf279703c6d4e1558492825; UM_distinctid=16add780dc6c0-0c0a00978979ee-5d4e211f-c0000-16add780dc716b; CNZZDATA1257137757=248594716-1558488991-%7C1558522912; Hm_lvt_136bd7aac0d158dec628add4b8dd4c3a=1558423559,1558636392; Hm_lpvt_136bd7aac0d158dec628add4b8dd4c3a=1558918032; style=qingshuang; PHPSESSID=73f7j5cfr355jib9mt88fsibbc; __qc_wId=511; pgv_pvid=8616528835; __qc__k=; we7install_cdn_source_size=20227410; OzJ2___session=3eb3QhAE5Psf%2Fg9jZxetv3G%2BL8HQWxC66d%2FtlOfy%2B3Qn%2B5l4EQG1u5b1YqhbDdDnG6le3w7F1TxZNM5dpm9d4umaE95h6WEjAofm9rZijVztC3oWG7U7ST4a1WT9Ovkorc3c3eO7ZDg7Gfzz3wQ; we7install_accesstoken=%7B%22accessToken%22%3A%22kSDctJzZ3s3Trg1IOkO3cbCso4TeK3iG3o13Me3odOMCcoITDcms3oDrM1cUGOJc%22%2C%22expireTime%22%3A1559038051%7D; Tk9U___session=65a4x%2B%2B9ws06mEynZ%2FX%2FAHNuNFuMYHULO9QeU3D6HvvAE3v80Z11w%2Bzx5TBTxvF8fMKUxWm337t5az0SIDQUYV%2Ft427%2BRyloT2SA7mv0PJUjNaujB8zLdn39ltiAl4fvaJxAtXjPynmJ76ogLQ; Tk9U___lastvisit_1=%2Chttp%3A//www.adgzs.top/web/index.php%3Fc%3Dsystem%26a%3Dsite; Tk9U___notice=1559053776; Tk9U_jsMenuScroll=; OzJ2___lastvisit_1=%2Chttp%3A//www.adgzs.top/web/index.php%3Fc%3Dcloud%26a%3Dsms; OzJ2_jsMenuScroll=; OzJ2___notice=1559054451',
+)
+[ info ] [ PARAM ] array (
+  '/view/8_html' => '',
+  'id' => '8',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->view[ E:\xampp\htdocs\blog\application\index\controller\Index.php ]
+[ info ] [ VIEW ] ./template/default/index_view.html [ array (
+  0 => 'tptca',
+  1 => 'tptcm',
+  2 => 'tptcc',
+  3 => 'tptm',
+  4 => 'tptl',
+  5 => 'tpte',
+  6 => 'tptf',
+  7 => 'tptb',
+  8 => 'tagss',
+  9 => 'tptop',
+  10 => 'tptops',
+  11 => 'tptuser',
+  12 => 'tptc',
+  13 => 'tpti',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-05-28T16:37:57+08:00 ] 127.0.0.1 127.0.0.1 GET /uploads/20180224/e05b5a98dca16a9a84f576752dfb8bad.jpg
+[ info ] www.adgzs.top/uploads/20180224/e05b5a98dca16a9a84f576752dfb8bad.jpg [运行时间：0.071656s][吞吐率：13.96req/s] [内存消耗：1,612.55kb] [文件加载：44]
+[ info ] [ LANG ] E:\xampp\htdocs\blog\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'uploads',
+    2 => '20180224',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.adgzs.top',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://www.adgzs.top/view/8.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__cfduid=dff3ce406800f1996f1ecf279703c6d4e1558492825; UM_distinctid=16add780dc6c0-0c0a00978979ee-5d4e211f-c0000-16add780dc716b; CNZZDATA1257137757=248594716-1558488991-%7C1558522912; Hm_lvt_136bd7aac0d158dec628add4b8dd4c3a=1558423559,1558636392; Hm_lpvt_136bd7aac0d158dec628add4b8dd4c3a=1558918032; style=qingshuang; PHPSESSID=73f7j5cfr355jib9mt88fsibbc; __qc_wId=511; pgv_pvid=8616528835; __qc__k=; we7install_cdn_source_size=20227410; OzJ2___session=3eb3QhAE5Psf%2Fg9jZxetv3G%2BL8HQWxC66d%2FtlOfy%2B3Qn%2B5l4EQG1u5b1YqhbDdDnG6le3w7F1TxZNM5dpm9d4umaE95h6WEjAofm9rZijVztC3oWG7U7ST4a1WT9Ovkorc3c3eO7ZDg7Gfzz3wQ; we7install_accesstoken=%7B%22accessToken%22%3A%22kSDctJzZ3s3Trg1IOkO3cbCso4TeK3iG3o13Me3odOMCcoITDcms3oDrM1cUGOJc%22%2C%22expireTime%22%3A1559038051%7D; Tk9U___session=65a4x%2B%2B9ws06mEynZ%2FX%2FAHNuNFuMYHULO9QeU3D6HvvAE3v80Z11w%2Bzx5TBTxvF8fMKUxWm337t5az0SIDQUYV%2Ft427%2BRyloT2SA7mv0PJUjNaujB8zLdn39ltiAl4fvaJxAtXjPynmJ76ogLQ; Tk9U___lastvisit_1=%2Chttp%3A//www.adgzs.top/web/index.php%3Fc%3Dsystem%26a%3Dsite; Tk9U___notice=1559053776; Tk9U_jsMenuScroll=; OzJ2___lastvisit_1=%2Chttp%3A//www.adgzs.top/web/index.php%3Fc%3Dcloud%26a%3Dsms; OzJ2_jsMenuScroll=; OzJ2___notice=1559054451',
+)
+[ info ] [ PARAM ] array (
+  '/uploads/20180224/e05b5a98dca16a9a84f576752dfb8bad_jpg' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-05-28T16:38:07+08:00 ] 127.0.0.1 127.0.0.1 GET /home/39.html
+[ info ] www.adgzs.top/home/39.html [运行时间：0.474452s][吞吐率：2.11req/s] [内存消耗：3,087.12kb] [文件加载：61]
+[ info ] [ LANG ] E:\xampp\htdocs\blog\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'home',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.adgzs.top',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.adgzs.top/view/8.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__cfduid=dff3ce406800f1996f1ecf279703c6d4e1558492825; UM_distinctid=16add780dc6c0-0c0a00978979ee-5d4e211f-c0000-16add780dc716b; CNZZDATA1257137757=248594716-1558488991-%7C1558522912; Hm_lvt_136bd7aac0d158dec628add4b8dd4c3a=1558423559,1558636392; Hm_lpvt_136bd7aac0d158dec628add4b8dd4c3a=1558918032; style=qingshuang; PHPSESSID=73f7j5cfr355jib9mt88fsibbc; __qc_wId=511; pgv_pvid=8616528835; __qc__k=; we7install_cdn_source_size=20227410; OzJ2___session=3eb3QhAE5Psf%2Fg9jZxetv3G%2BL8HQWxC66d%2FtlOfy%2B3Qn%2B5l4EQG1u5b1YqhbDdDnG6le3w7F1TxZNM5dpm9d4umaE95h6WEjAofm9rZijVztC3oWG7U7ST4a1WT9Ovkorc3c3eO7ZDg7Gfzz3wQ; we7install_accesstoken=%7B%22accessToken%22%3A%22kSDctJzZ3s3Trg1IOkO3cbCso4TeK3iG3o13Me3odOMCcoITDcms3oDrM1cUGOJc%22%2C%22expireTime%22%3A1559038051%7D; Tk9U___session=65a4x%2B%2B9ws06mEynZ%2FX%2FAHNuNFuMYHULO9QeU3D6HvvAE3v80Z11w%2Bzx5TBTxvF8fMKUxWm337t5az0SIDQUYV%2Ft427%2BRyloT2SA7mv0PJUjNaujB8zLdn39ltiAl4fvaJxAtXjPynmJ76ogLQ; Tk9U___lastvisit_1=%2Chttp%3A//www.adgzs.top/web/index.php%3Fc%3Dsystem%26a%3Dsite; Tk9U___notice=1559053776; Tk9U_jsMenuScroll=; OzJ2___lastvisit_1=%2Chttp%3A//www.adgzs.top/web/index.php%3Fc%3Dcloud%26a%3Dsms; OzJ2_jsMenuScroll=; OzJ2___notice=1559054451',
+)
+[ info ] [ PARAM ] array (
+  '/home/39_html' => '',
+  'id' => '39',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\User->home[ E:\xampp\htdocs\blog\application\index\controller\User.php ]
+[ info ] [ VIEW ] ./template/default/user_home.html [ array (
+  0 => 'tptop',
+  1 => 'tptops',
+  2 => 'tptuser',
+  3 => 'tptc',
+  4 => 'tpte',
+  5 => 'tptm',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-05-28T18:46:49+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] www.adgzs.top/ [运行时间：1.341022s][吞吐率：0.75req/s] [内存消耗：2,928.71kb] [文件加载：60]
+[ info ] [ LANG ] E:\xampp\htdocs\blog\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.adgzs.top',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.adgzs.top/home/39.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__cfduid=dff3ce406800f1996f1ecf279703c6d4e1558492825; UM_distinctid=16add780dc6c0-0c0a00978979ee-5d4e211f-c0000-16add780dc716b; CNZZDATA1257137757=248594716-1558488991-%7C1558522912; Hm_lvt_136bd7aac0d158dec628add4b8dd4c3a=1558423559,1558636392; Hm_lpvt_136bd7aac0d158dec628add4b8dd4c3a=1558918032; style=qingshuang; PHPSESSID=73f7j5cfr355jib9mt88fsibbc; __qc_wId=511; pgv_pvid=8616528835; __qc__k=; we7install_cdn_source_size=20227410; OzJ2___session=3eb3QhAE5Psf%2Fg9jZxetv3G%2BL8HQWxC66d%2FtlOfy%2B3Qn%2B5l4EQG1u5b1YqhbDdDnG6le3w7F1TxZNM5dpm9d4umaE95h6WEjAofm9rZijVztC3oWG7U7ST4a1WT9Ovkorc3c3eO7ZDg7Gfzz3wQ; we7install_accesstoken=%7B%22accessToken%22%3A%22kSDctJzZ3s3Trg1IOkO3cbCso4TeK3iG3o13Me3odOMCcoITDcms3oDrM1cUGOJc%22%2C%22expireTime%22%3A1559038051%7D; Tk9U___session=65a4x%2B%2B9ws06mEynZ%2FX%2FAHNuNFuMYHULO9QeU3D6HvvAE3v80Z11w%2Bzx5TBTxvF8fMKUxWm337t5az0SIDQUYV%2Ft427%2BRyloT2SA7mv0PJUjNaujB8zLdn39ltiAl4fvaJxAtXjPynmJ76ogLQ; Tk9U___lastvisit_1=%2Chttp%3A//www.adgzs.top/web/index.php%3Fc%3Dsystem%26a%3Dsite; Tk9U___notice=1559053776; Tk9U_jsMenuScroll=; OzJ2___lastvisit_1=%2Chttp%3A//www.adgzs.top/web/index.php%3Fc%3Dcloud%26a%3Dsms; OzJ2_jsMenuScroll=; OzJ2___notice=1559054451',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\xampp\htdocs\blog\application\index\controller\Index.php ]
+[ info ] [ VIEW ] ./template/default/index_index.html [ array (
+  0 => 'tptca',
+  1 => 'tptcm',
+  2 => 'tptcc',
+  3 => 'tptm',
+  4 => 'tptl',
+  5 => 'tpte',
+  6 => 'tptf',
+  7 => 'tptb',
+  8 => 'tagss',
+  9 => 'tptop',
+  10 => 'tptops',
+  11 => 'tptuser',
+  12 => 'tptc',
+  13 => 'tptcs',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-05-28T18:46:51+08:00 ] 127.0.0.1 127.0.0.1 GET /uploads/20180224/e05b5a98dca16a9a84f576752dfb8bad.jpg
+[ info ] www.adgzs.top/uploads/20180224/e05b5a98dca16a9a84f576752dfb8bad.jpg [运行时间：0.325957s][吞吐率：3.07req/s] [内存消耗：1,612.54kb] [文件加载：44]
+[ info ] [ LANG ] E:\xampp\htdocs\blog\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'uploads',
+    2 => '20180224',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.adgzs.top',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://www.adgzs.top/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__cfduid=dff3ce406800f1996f1ecf279703c6d4e1558492825; UM_distinctid=16add780dc6c0-0c0a00978979ee-5d4e211f-c0000-16add780dc716b; CNZZDATA1257137757=248594716-1558488991-%7C1558522912; Hm_lvt_136bd7aac0d158dec628add4b8dd4c3a=1558423559,1558636392; Hm_lpvt_136bd7aac0d158dec628add4b8dd4c3a=1558918032; style=qingshuang; PHPSESSID=73f7j5cfr355jib9mt88fsibbc; __qc_wId=511; pgv_pvid=8616528835; __qc__k=; we7install_cdn_source_size=20227410; OzJ2___session=3eb3QhAE5Psf%2Fg9jZxetv3G%2BL8HQWxC66d%2FtlOfy%2B3Qn%2B5l4EQG1u5b1YqhbDdDnG6le3w7F1TxZNM5dpm9d4umaE95h6WEjAofm9rZijVztC3oWG7U7ST4a1WT9Ovkorc3c3eO7ZDg7Gfzz3wQ; we7install_accesstoken=%7B%22accessToken%22%3A%22kSDctJzZ3s3Trg1IOkO3cbCso4TeK3iG3o13Me3odOMCcoITDcms3oDrM1cUGOJc%22%2C%22expireTime%22%3A1559038051%7D; Tk9U___session=65a4x%2B%2B9ws06mEynZ%2FX%2FAHNuNFuMYHULO9QeU3D6HvvAE3v80Z11w%2Bzx5TBTxvF8fMKUxWm337t5az0SIDQUYV%2Ft427%2BRyloT2SA7mv0PJUjNaujB8zLdn39ltiAl4fvaJxAtXjPynmJ76ogLQ; Tk9U___lastvisit_1=%2Chttp%3A//www.adgzs.top/web/index.php%3Fc%3Dsystem%26a%3Dsite; Tk9U___notice=1559053776; Tk9U_jsMenuScroll=; OzJ2___lastvisit_1=%2Chttp%3A//www.adgzs.top/web/index.php%3Fc%3Dcloud%26a%3Dsms; OzJ2_jsMenuScroll=; OzJ2___notice=1559054451',
+)
+[ info ] [ PARAM ] array (
+  '/uploads/20180224/e05b5a98dca16a9a84f576752dfb8bad_jpg' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-05-28T22:53:10+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] www.adgzs.top/ [运行时间：1.706053s][吞吐率：0.59req/s] [内存消耗：2,928.79kb] [文件加载：60]
+[ info ] [ LANG ] E:\xampp\htdocs\blog\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.adgzs.top',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.adgzs.top/home/39.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__cfduid=dff3ce406800f1996f1ecf279703c6d4e1558492825; UM_distinctid=16add780dc6c0-0c0a00978979ee-5d4e211f-c0000-16add780dc716b; CNZZDATA1257137757=248594716-1558488991-%7C1558522912; Hm_lvt_136bd7aac0d158dec628add4b8dd4c3a=1558423559,1558636392; Hm_lpvt_136bd7aac0d158dec628add4b8dd4c3a=1558918032; style=qingshuang; PHPSESSID=73f7j5cfr355jib9mt88fsibbc; __qc_wId=511; pgv_pvid=8616528835; __qc__k=; we7install_cdn_source_size=20227410; OzJ2___session=3eb3QhAE5Psf%2Fg9jZxetv3G%2BL8HQWxC66d%2FtlOfy%2B3Qn%2B5l4EQG1u5b1YqhbDdDnG6le3w7F1TxZNM5dpm9d4umaE95h6WEjAofm9rZijVztC3oWG7U7ST4a1WT9Ovkorc3c3eO7ZDg7Gfzz3wQ; we7install_accesstoken=%7B%22accessToken%22%3A%22kSDctJzZ3s3Trg1IOkO3cbCso4TeK3iG3o13Me3odOMCcoITDcms3oDrM1cUGOJc%22%2C%22expireTime%22%3A1559038051%7D; Tk9U___session=65a4x%2B%2B9ws06mEynZ%2FX%2FAHNuNFuMYHULO9QeU3D6HvvAE3v80Z11w%2Bzx5TBTxvF8fMKUxWm337t5az0SIDQUYV%2Ft427%2BRyloT2SA7mv0PJUjNaujB8zLdn39ltiAl4fvaJxAtXjPynmJ76ogLQ; Tk9U___lastvisit_1=%2Chttp%3A//www.adgzs.top/web/index.php%3Fc%3Dsystem%26a%3Dsite; Tk9U_jsMenuScroll=; OzJ2___lastvisit_1=%2Chttp%3A//www.adgzs.top/web/index.php%3Fc%3Dcloud%26a%3Dsms; OzJ2_jsMenuScroll=',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\xampp\htdocs\blog\application\index\controller\Index.php ]
+[ info ] [ VIEW ] ./template/default/index_index.html [ array (
+  0 => 'tptca',
+  1 => 'tptcm',
+  2 => 'tptcc',
+  3 => 'tptm',
+  4 => 'tptl',
+  5 => 'tpte',
+  6 => 'tptf',
+  7 => 'tptb',
+  8 => 'tagss',
+  9 => 'tptop',
+  10 => 'tptops',
+  11 => 'tptuser',
+  12 => 'tptc',
+  13 => 'tptcs',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-05-28T22:53:11+08:00 ] 127.0.0.1 127.0.0.1 GET /uploads/20180224/e05b5a98dca16a9a84f576752dfb8bad.jpg
+[ info ] www.adgzs.top/uploads/20180224/e05b5a98dca16a9a84f576752dfb8bad.jpg [运行时间：0.255426s][吞吐率：3.92req/s] [内存消耗：1,612.54kb] [文件加载：44]
+[ info ] [ LANG ] E:\xampp\htdocs\blog\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'uploads',
+    2 => '20180224',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.adgzs.top',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://www.adgzs.top/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__cfduid=dff3ce406800f1996f1ecf279703c6d4e1558492825; UM_distinctid=16add780dc6c0-0c0a00978979ee-5d4e211f-c0000-16add780dc716b; CNZZDATA1257137757=248594716-1558488991-%7C1558522912; Hm_lvt_136bd7aac0d158dec628add4b8dd4c3a=1558423559,1558636392; Hm_lpvt_136bd7aac0d158dec628add4b8dd4c3a=1558918032; style=qingshuang; PHPSESSID=73f7j5cfr355jib9mt88fsibbc; __qc_wId=511; pgv_pvid=8616528835; __qc__k=; we7install_cdn_source_size=20227410; OzJ2___session=3eb3QhAE5Psf%2Fg9jZxetv3G%2BL8HQWxC66d%2FtlOfy%2B3Qn%2B5l4EQG1u5b1YqhbDdDnG6le3w7F1TxZNM5dpm9d4umaE95h6WEjAofm9rZijVztC3oWG7U7ST4a1WT9Ovkorc3c3eO7ZDg7Gfzz3wQ; we7install_accesstoken=%7B%22accessToken%22%3A%22kSDctJzZ3s3Trg1IOkO3cbCso4TeK3iG3o13Me3odOMCcoITDcms3oDrM1cUGOJc%22%2C%22expireTime%22%3A1559038051%7D; Tk9U___session=65a4x%2B%2B9ws06mEynZ%2FX%2FAHNuNFuMYHULO9QeU3D6HvvAE3v80Z11w%2Bzx5TBTxvF8fMKUxWm337t5az0SIDQUYV%2Ft427%2BRyloT2SA7mv0PJUjNaujB8zLdn39ltiAl4fvaJxAtXjPynmJ76ogLQ; Tk9U___lastvisit_1=%2Chttp%3A//www.adgzs.top/web/index.php%3Fc%3Dsystem%26a%3Dsite; Tk9U_jsMenuScroll=; OzJ2___lastvisit_1=%2Chttp%3A//www.adgzs.top/web/index.php%3Fc%3Dcloud%26a%3Dsms; OzJ2_jsMenuScroll=',
+)
+[ info ] [ PARAM ] array (
+  '/uploads/20180224/e05b5a98dca16a9a84f576752dfb8bad_jpg' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-05-28T22:53:23+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] www.adgzs.top/ [运行时间：0.371128s][吞吐率：2.69req/s] [内存消耗：2,927.84kb] [文件加载：60]
+[ info ] [ LANG ] E:\xampp\htdocs\blog\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.adgzs.top',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__cfduid=dff3ce406800f1996f1ecf279703c6d4e1558492825; UM_distinctid=16add780dc6c0-0c0a00978979ee-5d4e211f-c0000-16add780dc716b; CNZZDATA1257137757=248594716-1558488991-%7C1558522912; Hm_lvt_136bd7aac0d158dec628add4b8dd4c3a=1558423559,1558636392; Hm_lpvt_136bd7aac0d158dec628add4b8dd4c3a=1558918032; style=qingshuang; PHPSESSID=73f7j5cfr355jib9mt88fsibbc; __qc_wId=511; pgv_pvid=8616528835; __qc__k=; we7install_cdn_source_size=20227410; OzJ2___session=3eb3QhAE5Psf%2Fg9jZxetv3G%2BL8HQWxC66d%2FtlOfy%2B3Qn%2B5l4EQG1u5b1YqhbDdDnG6le3w7F1TxZNM5dpm9d4umaE95h6WEjAofm9rZijVztC3oWG7U7ST4a1WT9Ovkorc3c3eO7ZDg7Gfzz3wQ; we7install_accesstoken=%7B%22accessToken%22%3A%22kSDctJzZ3s3Trg1IOkO3cbCso4TeK3iG3o13Me3odOMCcoITDcms3oDrM1cUGOJc%22%2C%22expireTime%22%3A1559038051%7D; Tk9U___session=65a4x%2B%2B9ws06mEynZ%2FX%2FAHNuNFuMYHULO9QeU3D6HvvAE3v80Z11w%2Bzx5TBTxvF8fMKUxWm337t5az0SIDQUYV%2Ft427%2BRyloT2SA7mv0PJUjNaujB8zLdn39ltiAl4fvaJxAtXjPynmJ76ogLQ; Tk9U___lastvisit_1=%2Chttp%3A//www.adgzs.top/web/index.php%3Fc%3Dsystem%26a%3Dsite; Tk9U_jsMenuScroll=; OzJ2___lastvisit_1=%2Chttp%3A//www.adgzs.top/web/index.php%3Fc%3Dcloud%26a%3Dsms; OzJ2_jsMenuScroll=',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\xampp\htdocs\blog\application\index\controller\Index.php ]
+[ info ] [ VIEW ] ./template/default/index_index.html [ array (
+  0 => 'tptca',
+  1 => 'tptcm',
+  2 => 'tptcc',
+  3 => 'tptm',
+  4 => 'tptl',
+  5 => 'tpte',
+  6 => 'tptf',
+  7 => 'tptb',
+  8 => 'tagss',
+  9 => 'tptop',
+  10 => 'tptops',
+  11 => 'tptuser',
+  12 => 'tptc',
+  13 => 'tptcs',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-05-28T22:53:23+08:00 ] 127.0.0.1 127.0.0.1 GET /uploads/20180224/e05b5a98dca16a9a84f576752dfb8bad.jpg
+[ info ] www.adgzs.top/uploads/20180224/e05b5a98dca16a9a84f576752dfb8bad.jpg [运行时间：0.069194s][吞吐率：14.45req/s] [内存消耗：1,612.54kb] [文件加载：44]
+[ info ] [ LANG ] E:\xampp\htdocs\blog\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'uploads',
+    2 => '20180224',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.adgzs.top',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://www.adgzs.top/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__cfduid=dff3ce406800f1996f1ecf279703c6d4e1558492825; UM_distinctid=16add780dc6c0-0c0a00978979ee-5d4e211f-c0000-16add780dc716b; CNZZDATA1257137757=248594716-1558488991-%7C1558522912; Hm_lvt_136bd7aac0d158dec628add4b8dd4c3a=1558423559,1558636392; Hm_lpvt_136bd7aac0d158dec628add4b8dd4c3a=1558918032; style=qingshuang; PHPSESSID=73f7j5cfr355jib9mt88fsibbc; __qc_wId=511; pgv_pvid=8616528835; __qc__k=; we7install_cdn_source_size=20227410; OzJ2___session=3eb3QhAE5Psf%2Fg9jZxetv3G%2BL8HQWxC66d%2FtlOfy%2B3Qn%2B5l4EQG1u5b1YqhbDdDnG6le3w7F1TxZNM5dpm9d4umaE95h6WEjAofm9rZijVztC3oWG7U7ST4a1WT9Ovkorc3c3eO7ZDg7Gfzz3wQ; we7install_accesstoken=%7B%22accessToken%22%3A%22kSDctJzZ3s3Trg1IOkO3cbCso4TeK3iG3o13Me3odOMCcoITDcms3oDrM1cUGOJc%22%2C%22expireTime%22%3A1559038051%7D; Tk9U___session=65a4x%2B%2B9ws06mEynZ%2FX%2FAHNuNFuMYHULO9QeU3D6HvvAE3v80Z11w%2Bzx5TBTxvF8fMKUxWm337t5az0SIDQUYV%2Ft427%2BRyloT2SA7mv0PJUjNaujB8zLdn39ltiAl4fvaJxAtXjPynmJ76ogLQ; Tk9U___lastvisit_1=%2Chttp%3A//www.adgzs.top/web/index.php%3Fc%3Dsystem%26a%3Dsite; Tk9U_jsMenuScroll=; OzJ2___lastvisit_1=%2Chttp%3A//www.adgzs.top/web/index.php%3Fc%3Dcloud%26a%3Dsms; OzJ2_jsMenuScroll=',
+)
+[ info ] [ PARAM ] array (
+  '/uploads/20180224/e05b5a98dca16a9a84f576752dfb8bad_jpg' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-05-28T22:53:35+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.php
+[ info ] www.adgzs.top/admin.php [运行时间：0.497608s][吞吐率：2.01req/s] [内存消耗：2,620.00kb] [文件加载：57]
+[ info ] [ LANG ] E:\xampp\htdocs\blog\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.adgzs.top',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__cfduid=dff3ce406800f1996f1ecf279703c6d4e1558492825; UM_distinctid=16add780dc6c0-0c0a00978979ee-5d4e211f-c0000-16add780dc716b; CNZZDATA1257137757=248594716-1558488991-%7C1558522912; Hm_lvt_136bd7aac0d158dec628add4b8dd4c3a=1558423559,1558636392; Hm_lpvt_136bd7aac0d158dec628add4b8dd4c3a=1558918032; style=qingshuang; PHPSESSID=73f7j5cfr355jib9mt88fsibbc; __qc_wId=511; pgv_pvid=8616528835; __qc__k=; we7install_cdn_source_size=20227410; OzJ2___session=3eb3QhAE5Psf%2Fg9jZxetv3G%2BL8HQWxC66d%2FtlOfy%2B3Qn%2B5l4EQG1u5b1YqhbDdDnG6le3w7F1TxZNM5dpm9d4umaE95h6WEjAofm9rZijVztC3oWG7U7ST4a1WT9Ovkorc3c3eO7ZDg7Gfzz3wQ; we7install_accesstoken=%7B%22accessToken%22%3A%22kSDctJzZ3s3Trg1IOkO3cbCso4TeK3iG3o13Me3odOMCcoITDcms3oDrM1cUGOJc%22%2C%22expireTime%22%3A1559038051%7D; Tk9U___session=65a4x%2B%2B9ws06mEynZ%2FX%2FAHNuNFuMYHULO9QeU3D6HvvAE3v80Z11w%2Bzx5TBTxvF8fMKUxWm337t5az0SIDQUYV%2Ft427%2BRyloT2SA7mv0PJUjNaujB8zLdn39ltiAl4fvaJxAtXjPynmJ76ogLQ; Tk9U___lastvisit_1=%2Chttp%3A//www.adgzs.top/web/index.php%3Fc%3Dsystem%26a%3Dsite; Tk9U_jsMenuScroll=; OzJ2___lastvisit_1=%2Chttp%3A//www.adgzs.top/web/index.php%3Fc%3Dcloud%26a%3Dsms; OzJ2_jsMenuScroll=',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\xampp\htdocs\blog\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] ./application/admin\view\index_index.html [ array (
+  0 => 'tptadmin',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-05-28T22:53:36+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.php/index/home.html
+[ info ] www.adgzs.top/admin.php/index/home.html [运行时间：0.239580s][吞吐率：4.17req/s] [内存消耗：2,614.48kb] [文件加载：57]
+[ info ] [ LANG ] E:\xampp\htdocs\blog\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'home',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.adgzs.top',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.adgzs.top/admin.php',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__cfduid=dff3ce406800f1996f1ecf279703c6d4e1558492825; UM_distinctid=16add780dc6c0-0c0a00978979ee-5d4e211f-c0000-16add780dc716b; CNZZDATA1257137757=248594716-1558488991-%7C1558522912; Hm_lvt_136bd7aac0d158dec628add4b8dd4c3a=1558423559,1558636392; Hm_lpvt_136bd7aac0d158dec628add4b8dd4c3a=1558918032; style=qingshuang; PHPSESSID=73f7j5cfr355jib9mt88fsibbc; __qc_wId=511; pgv_pvid=8616528835; __qc__k=; we7install_cdn_source_size=20227410; OzJ2___session=3eb3QhAE5Psf%2Fg9jZxetv3G%2BL8HQWxC66d%2FtlOfy%2B3Qn%2B5l4EQG1u5b1YqhbDdDnG6le3w7F1TxZNM5dpm9d4umaE95h6WEjAofm9rZijVztC3oWG7U7ST4a1WT9Ovkorc3c3eO7ZDg7Gfzz3wQ; we7install_accesstoken=%7B%22accessToken%22%3A%22kSDctJzZ3s3Trg1IOkO3cbCso4TeK3iG3o13Me3odOMCcoITDcms3oDrM1cUGOJc%22%2C%22expireTime%22%3A1559038051%7D; Tk9U___session=65a4x%2B%2B9ws06mEynZ%2FX%2FAHNuNFuMYHULO9QeU3D6HvvAE3v80Z11w%2Bzx5TBTxvF8fMKUxWm337t5az0SIDQUYV%2Ft427%2BRyloT2SA7mv0PJUjNaujB8zLdn39ltiAl4fvaJxAtXjPynmJ76ogLQ; Tk9U___lastvisit_1=%2Chttp%3A//www.adgzs.top/web/index.php%3Fc%3Dsystem%26a%3Dsite; Tk9U_jsMenuScroll=; OzJ2___lastvisit_1=%2Chttp%3A//www.adgzs.top/web/index.php%3Fc%3Dcloud%26a%3Dsms; OzJ2_jsMenuScroll=',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->home[ E:\xampp\htdocs\blog\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] ./application/admin\view\index_home.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-05-28T22:53:43+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.php/member/index.html
+[ info ] www.adgzs.top/admin.php/member/index.html [运行时间：0.427132s][吞吐率：2.34req/s] [内存消耗：3,242.93kb] [文件加载：64]
+[ info ] [ LANG ] E:\xampp\htdocs\blog\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'member',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.adgzs.top',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.adgzs.top/admin.php',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__cfduid=dff3ce406800f1996f1ecf279703c6d4e1558492825; UM_distinctid=16add780dc6c0-0c0a00978979ee-5d4e211f-c0000-16add780dc716b; CNZZDATA1257137757=248594716-1558488991-%7C1558522912; Hm_lvt_136bd7aac0d158dec628add4b8dd4c3a=1558423559,1558636392; Hm_lpvt_136bd7aac0d158dec628add4b8dd4c3a=1558918032; style=qingshuang; PHPSESSID=73f7j5cfr355jib9mt88fsibbc; __qc_wId=511; pgv_pvid=8616528835; __qc__k=; we7install_cdn_source_size=20227410; OzJ2___session=3eb3QhAE5Psf%2Fg9jZxetv3G%2BL8HQWxC66d%2FtlOfy%2B3Qn%2B5l4EQG1u5b1YqhbDdDnG6le3w7F1TxZNM5dpm9d4umaE95h6WEjAofm9rZijVztC3oWG7U7ST4a1WT9Ovkorc3c3eO7ZDg7Gfzz3wQ; we7install_accesstoken=%7B%22accessToken%22%3A%22kSDctJzZ3s3Trg1IOkO3cbCso4TeK3iG3o13Me3odOMCcoITDcms3oDrM1cUGOJc%22%2C%22expireTime%22%3A1559038051%7D; Tk9U___session=65a4x%2B%2B9ws06mEynZ%2FX%2FAHNuNFuMYHULO9QeU3D6HvvAE3v80Z11w%2Bzx5TBTxvF8fMKUxWm337t5az0SIDQUYV%2Ft427%2BRyloT2SA7mv0PJUjNaujB8zLdn39ltiAl4fvaJxAtXjPynmJ76ogLQ; Tk9U___lastvisit_1=%2Chttp%3A//www.adgzs.top/web/index.php%3Fc%3Dsystem%26a%3Dsite; Tk9U_jsMenuScroll=; OzJ2___lastvisit_1=%2Chttp%3A//www.adgzs.top/web/index.php%3Fc%3Dcloud%26a%3Dsms; OzJ2_jsMenuScroll=',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Member->index[ E:\xampp\htdocs\blog\application\admin\controller\Member.php ]
+[ info ] [ VIEW ] ./application/admin\view\member_index.html [ array (
+  0 => 'tptc',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-05-28T22:53:48+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.php/config/index.html
+[ info ] www.adgzs.top/admin.php/config/index.html [运行时间：0.258044s][吞吐率：3.88req/s] [内存消耗：2,779.60kb] [文件加载：59]
+[ info ] [ LANG ] E:\xampp\htdocs\blog\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'config',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.adgzs.top',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.adgzs.top/admin.php',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__cfduid=dff3ce406800f1996f1ecf279703c6d4e1558492825; UM_distinctid=16add780dc6c0-0c0a00978979ee-5d4e211f-c0000-16add780dc716b; CNZZDATA1257137757=248594716-1558488991-%7C1558522912; Hm_lvt_136bd7aac0d158dec628add4b8dd4c3a=1558423559,1558636392; Hm_lpvt_136bd7aac0d158dec628add4b8dd4c3a=1558918032; style=qingshuang; PHPSESSID=73f7j5cfr355jib9mt88fsibbc; __qc_wId=511; pgv_pvid=8616528835; __qc__k=; we7install_cdn_source_size=20227410; OzJ2___session=3eb3QhAE5Psf%2Fg9jZxetv3G%2BL8HQWxC66d%2FtlOfy%2B3Qn%2B5l4EQG1u5b1YqhbDdDnG6le3w7F1TxZNM5dpm9d4umaE95h6WEjAofm9rZijVztC3oWG7U7ST4a1WT9Ovkorc3c3eO7ZDg7Gfzz3wQ; we7install_accesstoken=%7B%22accessToken%22%3A%22kSDctJzZ3s3Trg1IOkO3cbCso4TeK3iG3o13Me3odOMCcoITDcms3oDrM1cUGOJc%22%2C%22expireTime%22%3A1559038051%7D; Tk9U___session=65a4x%2B%2B9ws06mEynZ%2FX%2FAHNuNFuMYHULO9QeU3D6HvvAE3v80Z11w%2Bzx5TBTxvF8fMKUxWm337t5az0SIDQUYV%2Ft427%2BRyloT2SA7mv0PJUjNaujB8zLdn39ltiAl4fvaJxAtXjPynmJ76ogLQ; Tk9U___lastvisit_1=%2Chttp%3A//www.adgzs.top/web/index.php%3Fc%3Dsystem%26a%3Dsite; Tk9U_jsMenuScroll=; OzJ2___lastvisit_1=%2Chttp%3A//www.adgzs.top/web/index.php%3Fc%3Dcloud%26a%3Dsms; OzJ2_jsMenuScroll=',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Config->index[ E:\xampp\htdocs\blog\application\admin\controller\Config.php ]
+[ info ] [ VIEW ] ./application/admin\view\config_index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-05-28T22:53:54+08:00 ] 127.0.0.1 127.0.0.1 POST /admin.php/config/add.html
+[ info ] www.adgzs.top/admin.php/config/add.html [运行时间：0.262438s][吞吐率：3.81req/s] [内存消耗：2,566.90kb] [文件加载：55]
+[ info ] [ LANG ] E:\xampp\htdocs\blog\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'config',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.adgzs.top',
+  'connection' => 'keep-alive',
+  'content-length' => '1124',
+  'accept' => '*/*',
+  'origin' => 'http://www.adgzs.top',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.adgzs.top/admin.php/config/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__cfduid=dff3ce406800f1996f1ecf279703c6d4e1558492825; UM_distinctid=16add780dc6c0-0c0a00978979ee-5d4e211f-c0000-16add780dc716b; CNZZDATA1257137757=248594716-1558488991-%7C1558522912; Hm_lvt_136bd7aac0d158dec628add4b8dd4c3a=1558423559,1558636392; Hm_lpvt_136bd7aac0d158dec628add4b8dd4c3a=1558918032; style=qingshuang; PHPSESSID=73f7j5cfr355jib9mt88fsibbc; __qc_wId=511; pgv_pvid=8616528835; __qc__k=; we7install_cdn_source_size=20227410; OzJ2___session=3eb3QhAE5Psf%2Fg9jZxetv3G%2BL8HQWxC66d%2FtlOfy%2B3Qn%2B5l4EQG1u5b1YqhbDdDnG6le3w7F1TxZNM5dpm9d4umaE95h6WEjAofm9rZijVztC3oWG7U7ST4a1WT9Ovkorc3c3eO7ZDg7Gfzz3wQ; we7install_accesstoken=%7B%22accessToken%22%3A%22kSDctJzZ3s3Trg1IOkO3cbCso4TeK3iG3o13Me3odOMCcoITDcms3oDrM1cUGOJc%22%2C%22expireTime%22%3A1559038051%7D; Tk9U___session=65a4x%2B%2B9ws06mEynZ%2FX%2FAHNuNFuMYHULO9QeU3D6HvvAE3v80Z11w%2Bzx5TBTxvF8fMKUxWm337t5az0SIDQUYV%2Ft427%2BRyloT2SA7mv0PJUjNaujB8zLdn39ltiAl4fvaJxAtXjPynmJ76ogLQ; Tk9U___lastvisit_1=%2Chttp%3A//www.adgzs.top/web/index.php%3Fc%3Dsystem%26a%3Dsite; Tk9U_jsMenuScroll=; OzJ2___lastvisit_1=%2Chttp%3A//www.adgzs.top/web/index.php%3Fc%3Dcloud%26a%3Dsms; OzJ2_jsMenuScroll=',
+)
+[ info ] [ PARAM ] array (
+  'WEB_TIT' => '创邦-吾燕技术博客-分享各种学习资源,thinkphp技术交流',
+  'WEB_COM' => 'http://www.adgzs.top',
+  'WEB_AUT' => '网站开发工作室版权所有',
+  'WEB_QQ' => '180045550',
+  'WEB_ICP' => '黔ICP备18009403号',
+  'WEB_KEY' => '个人博客,技术博客.linux,win,php,thinkphp5',
+  'WEB_DES' => '欢迎来到波仔技术博客。这是一个分享经验，php教程，前端教程，计算机维护的博客。',
+  'WEB_TAG' => 'CPU,CSS,LINUX,JQUERY,PHP,AJAX',
+  'WEB_LOG' => '3',
+  'WEB_YAN' => '0',
+  'WEB_QQID' => '101576572',
+  'WEB_QQKEY' => 'acdc2d916217a8ec8163a03725ec2942',
+  'WEB_TPT' => 'default',
+  'WEB_OPE' => '0',
+  'WEB_CNE' => '1',
+  'WEB_ADD' => '1',
+  'WEB_CNT' => '1',
+  'WEB_FTP' => '3',
+  'WEB_FHY' => '8',
+  'WEB_FDZ' => '3',
+  'WEB_FTJ' => '3',
+  'WEB_FJX' => '0',
+  'WEB_FHF' => '15',
+  'WEB_FYS' => '6',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Config->add[ E:\xampp\htdocs\blog\application\admin\controller\Config.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-05-28T22:53:56+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.php/config/index.html
+[ info ] www.adgzs.top/admin.php/config/index.html [运行时间：0.181101s][吞吐率：5.52req/s] [内存消耗：2,631.23kb] [文件加载：57]
+[ info ] [ LANG ] E:\xampp\htdocs\blog\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'config',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.adgzs.top',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.adgzs.top/admin.php/config/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__cfduid=dff3ce406800f1996f1ecf279703c6d4e1558492825; UM_distinctid=16add780dc6c0-0c0a00978979ee-5d4e211f-c0000-16add780dc716b; CNZZDATA1257137757=248594716-1558488991-%7C1558522912; Hm_lvt_136bd7aac0d158dec628add4b8dd4c3a=1558423559,1558636392; Hm_lpvt_136bd7aac0d158dec628add4b8dd4c3a=1558918032; style=qingshuang; PHPSESSID=73f7j5cfr355jib9mt88fsibbc; __qc_wId=511; pgv_pvid=8616528835; __qc__k=; we7install_cdn_source_size=20227410; OzJ2___session=3eb3QhAE5Psf%2Fg9jZxetv3G%2BL8HQWxC66d%2FtlOfy%2B3Qn%2B5l4EQG1u5b1YqhbDdDnG6le3w7F1TxZNM5dpm9d4umaE95h6WEjAofm9rZijVztC3oWG7U7ST4a1WT9Ovkorc3c3eO7ZDg7Gfzz3wQ; we7install_accesstoken=%7B%22accessToken%22%3A%22kSDctJzZ3s3Trg1IOkO3cbCso4TeK3iG3o13Me3odOMCcoITDcms3oDrM1cUGOJc%22%2C%22expireTime%22%3A1559038051%7D; Tk9U___session=65a4x%2B%2B9ws06mEynZ%2FX%2FAHNuNFuMYHULO9QeU3D6HvvAE3v80Z11w%2Bzx5TBTxvF8fMKUxWm337t5az0SIDQUYV%2Ft427%2BRyloT2SA7mv0PJUjNaujB8zLdn39ltiAl4fvaJxAtXjPynmJ76ogLQ; Tk9U___lastvisit_1=%2Chttp%3A//www.adgzs.top/web/index.php%3Fc%3Dsystem%26a%3Dsite; Tk9U_jsMenuScroll=; OzJ2___lastvisit_1=%2Chttp%3A//www.adgzs.top/web/index.php%3Fc%3Dcloud%26a%3Dsms; OzJ2_jsMenuScroll=',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Config->index[ E:\xampp\htdocs\blog\application\admin\controller\Config.php ]
+[ info ] [ VIEW ] ./application/admin\view\config_index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-05-28T22:53:57+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] www.adgzs.top/ [运行时间：0.341895s][吞吐率：2.92req/s] [内存消耗：2,928.79kb] [文件加载：60]
+[ info ] [ LANG ] E:\xampp\htdocs\blog\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.adgzs.top',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.adgzs.top/home/39.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__cfduid=dff3ce406800f1996f1ecf279703c6d4e1558492825; UM_distinctid=16add780dc6c0-0c0a00978979ee-5d4e211f-c0000-16add780dc716b; CNZZDATA1257137757=248594716-1558488991-%7C1558522912; Hm_lvt_136bd7aac0d158dec628add4b8dd4c3a=1558423559,1558636392; Hm_lpvt_136bd7aac0d158dec628add4b8dd4c3a=1558918032; style=qingshuang; PHPSESSID=73f7j5cfr355jib9mt88fsibbc; __qc_wId=511; pgv_pvid=8616528835; __qc__k=; we7install_cdn_source_size=20227410; OzJ2___session=3eb3QhAE5Psf%2Fg9jZxetv3G%2BL8HQWxC66d%2FtlOfy%2B3Qn%2B5l4EQG1u5b1YqhbDdDnG6le3w7F1TxZNM5dpm9d4umaE95h6WEjAofm9rZijVztC3oWG7U7ST4a1WT9Ovkorc3c3eO7ZDg7Gfzz3wQ; we7install_accesstoken=%7B%22accessToken%22%3A%22kSDctJzZ3s3Trg1IOkO3cbCso4TeK3iG3o13Me3odOMCcoITDcms3oDrM1cUGOJc%22%2C%22expireTime%22%3A1559038051%7D; Tk9U___session=65a4x%2B%2B9ws06mEynZ%2FX%2FAHNuNFuMYHULO9QeU3D6HvvAE3v80Z11w%2Bzx5TBTxvF8fMKUxWm337t5az0SIDQUYV%2Ft427%2BRyloT2SA7mv0PJUjNaujB8zLdn39ltiAl4fvaJxAtXjPynmJ76ogLQ; Tk9U___lastvisit_1=%2Chttp%3A//www.adgzs.top/web/index.php%3Fc%3Dsystem%26a%3Dsite; Tk9U_jsMenuScroll=; OzJ2___lastvisit_1=%2Chttp%3A//www.adgzs.top/web/index.php%3Fc%3Dcloud%26a%3Dsms; OzJ2_jsMenuScroll=',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\xampp\htdocs\blog\application\index\controller\Index.php ]
+[ info ] [ VIEW ] ./template/default/index_index.html [ array (
+  0 => 'tptca',
+  1 => 'tptcm',
+  2 => 'tptcc',
+  3 => 'tptm',
+  4 => 'tptl',
+  5 => 'tpte',
+  6 => 'tptf',
+  7 => 'tptb',
+  8 => 'tagss',
+  9 => 'tptop',
+  10 => 'tptops',
+  11 => 'tptuser',
+  12 => 'tptc',
+  13 => 'tptcs',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-05-28T22:53:58+08:00 ] 127.0.0.1 127.0.0.1 GET /uploads/20180224/e05b5a98dca16a9a84f576752dfb8bad.jpg
+[ info ] www.adgzs.top/uploads/20180224/e05b5a98dca16a9a84f576752dfb8bad.jpg [运行时间：0.093466s][吞吐率：10.70req/s] [内存消耗：1,612.54kb] [文件加载：44]
+[ info ] [ LANG ] E:\xampp\htdocs\blog\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'uploads',
+    2 => '20180224',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.adgzs.top',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://www.adgzs.top/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__cfduid=dff3ce406800f1996f1ecf279703c6d4e1558492825; UM_distinctid=16add780dc6c0-0c0a00978979ee-5d4e211f-c0000-16add780dc716b; CNZZDATA1257137757=248594716-1558488991-%7C1558522912; Hm_lvt_136bd7aac0d158dec628add4b8dd4c3a=1558423559,1558636392; Hm_lpvt_136bd7aac0d158dec628add4b8dd4c3a=1558918032; style=qingshuang; PHPSESSID=73f7j5cfr355jib9mt88fsibbc; __qc_wId=511; pgv_pvid=8616528835; __qc__k=; we7install_cdn_source_size=20227410; OzJ2___session=3eb3QhAE5Psf%2Fg9jZxetv3G%2BL8HQWxC66d%2FtlOfy%2B3Qn%2B5l4EQG1u5b1YqhbDdDnG6le3w7F1TxZNM5dpm9d4umaE95h6WEjAofm9rZijVztC3oWG7U7ST4a1WT9Ovkorc3c3eO7ZDg7Gfzz3wQ; we7install_accesstoken=%7B%22accessToken%22%3A%22kSDctJzZ3s3Trg1IOkO3cbCso4TeK3iG3o13Me3odOMCcoITDcms3oDrM1cUGOJc%22%2C%22expireTime%22%3A1559038051%7D; Tk9U___session=65a4x%2B%2B9ws06mEynZ%2FX%2FAHNuNFuMYHULO9QeU3D6HvvAE3v80Z11w%2Bzx5TBTxvF8fMKUxWm337t5az0SIDQUYV%2Ft427%2BRyloT2SA7mv0PJUjNaujB8zLdn39ltiAl4fvaJxAtXjPynmJ76ogLQ; Tk9U___lastvisit_1=%2Chttp%3A//www.adgzs.top/web/index.php%3Fc%3Dsystem%26a%3Dsite; Tk9U_jsMenuScroll=; OzJ2___lastvisit_1=%2Chttp%3A//www.adgzs.top/web/index.php%3Fc%3Dcloud%26a%3Dsms; OzJ2_jsMenuScroll=',
+)
+[ info ] [ PARAM ] array (
+  '/uploads/20180224/e05b5a98dca16a9a84f576752dfb8bad_jpg' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-05-28T22:54:00+08:00 ] 127.0.0.1 127.0.0.1 GET /login/logout.html
+[ info ] www.adgzs.top/login/logout.html [运行时间：0.182516s][吞吐率：5.48req/s] [内存消耗：2,621.48kb] [文件加载：55]
+[ info ] [ LANG ] E:\xampp\htdocs\blog\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'logout',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.adgzs.top',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'referer' => 'http://www.adgzs.top/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__cfduid=dff3ce406800f1996f1ecf279703c6d4e1558492825; UM_distinctid=16add780dc6c0-0c0a00978979ee-5d4e211f-c0000-16add780dc716b; CNZZDATA1257137757=248594716-1558488991-%7C1558522912; Hm_lvt_136bd7aac0d158dec628add4b8dd4c3a=1558423559,1558636392; Hm_lpvt_136bd7aac0d158dec628add4b8dd4c3a=1558918032; style=qingshuang; PHPSESSID=73f7j5cfr355jib9mt88fsibbc; __qc_wId=511; pgv_pvid=8616528835; __qc__k=; we7install_cdn_source_size=20227410; OzJ2___session=3eb3QhAE5Psf%2Fg9jZxetv3G%2BL8HQWxC66d%2FtlOfy%2B3Qn%2B5l4EQG1u5b1YqhbDdDnG6le3w7F1TxZNM5dpm9d4umaE95h6WEjAofm9rZijVztC3oWG7U7ST4a1WT9Ovkorc3c3eO7ZDg7Gfzz3wQ; we7install_accesstoken=%7B%22accessToken%22%3A%22kSDctJzZ3s3Trg1IOkO3cbCso4TeK3iG3o13Me3odOMCcoITDcms3oDrM1cUGOJc%22%2C%22expireTime%22%3A1559038051%7D; Tk9U___session=65a4x%2B%2B9ws06mEynZ%2FX%2FAHNuNFuMYHULO9QeU3D6HvvAE3v80Z11w%2Bzx5TBTxvF8fMKUxWm337t5az0SIDQUYV%2Ft427%2BRyloT2SA7mv0PJUjNaujB8zLdn39ltiAl4fvaJxAtXjPynmJ76ogLQ; Tk9U___lastvisit_1=%2Chttp%3A//www.adgzs.top/web/index.php%3Fc%3Dsystem%26a%3Dsite; Tk9U_jsMenuScroll=; OzJ2___lastvisit_1=%2Chttp%3A//www.adgzs.top/web/index.php%3Fc%3Dcloud%26a%3Dsms; OzJ2_jsMenuScroll=',
+)
+[ info ] [ PARAM ] array (
+  '/login/logout_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Login->logout[ E:\xampp\htdocs\blog\application\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-05-28T22:54:02+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] www.adgzs.top/ [运行时间：0.267043s][吞吐率：3.74req/s] [内存消耗：2,925.55kb] [文件加载：60]
+[ info ] [ LANG ] E:\xampp\htdocs\blog\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.adgzs.top',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.adgzs.top/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__cfduid=dff3ce406800f1996f1ecf279703c6d4e1558492825; UM_distinctid=16add780dc6c0-0c0a00978979ee-5d4e211f-c0000-16add780dc716b; CNZZDATA1257137757=248594716-1558488991-%7C1558522912; Hm_lvt_136bd7aac0d158dec628add4b8dd4c3a=1558423559,1558636392; Hm_lpvt_136bd7aac0d158dec628add4b8dd4c3a=1558918032; style=qingshuang; PHPSESSID=73f7j5cfr355jib9mt88fsibbc; __qc_wId=511; pgv_pvid=8616528835; __qc__k=; we7install_cdn_source_size=20227410; OzJ2___session=3eb3QhAE5Psf%2Fg9jZxetv3G%2BL8HQWxC66d%2FtlOfy%2B3Qn%2B5l4EQG1u5b1YqhbDdDnG6le3w7F1TxZNM5dpm9d4umaE95h6WEjAofm9rZijVztC3oWG7U7ST4a1WT9Ovkorc3c3eO7ZDg7Gfzz3wQ; we7install_accesstoken=%7B%22accessToken%22%3A%22kSDctJzZ3s3Trg1IOkO3cbCso4TeK3iG3o13Me3odOMCcoITDcms3oDrM1cUGOJc%22%2C%22expireTime%22%3A1559038051%7D; Tk9U___session=65a4x%2B%2B9ws06mEynZ%2FX%2FAHNuNFuMYHULO9QeU3D6HvvAE3v80Z11w%2Bzx5TBTxvF8fMKUxWm337t5az0SIDQUYV%2Ft427%2BRyloT2SA7mv0PJUjNaujB8zLdn39ltiAl4fvaJxAtXjPynmJ76ogLQ; Tk9U___lastvisit_1=%2Chttp%3A//www.adgzs.top/web/index.php%3Fc%3Dsystem%26a%3Dsite; Tk9U_jsMenuScroll=; OzJ2___lastvisit_1=%2Chttp%3A//www.adgzs.top/web/index.php%3Fc%3Dcloud%26a%3Dsms; OzJ2_jsMenuScroll=',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\xampp\htdocs\blog\application\index\controller\Index.php ]
+[ info ] [ VIEW ] ./template/default/index_index.html [ array (
+  0 => 'tptca',
+  1 => 'tptcm',
+  2 => 'tptcc',
+  3 => 'tptm',
+  4 => 'tptl',
+  5 => 'tpte',
+  6 => 'tptf',
+  7 => 'tptb',
+  8 => 'tagss',
+  9 => 'tptop',
+  10 => 'tptops',
+  11 => 'tptuser',
+  12 => 'tptc',
+  13 => 'tptcs',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-05-28T22:54:02+08:00 ] 127.0.0.1 127.0.0.1 GET /uploads/20180224/e05b5a98dca16a9a84f576752dfb8bad.jpg
+[ info ] www.adgzs.top/uploads/20180224/e05b5a98dca16a9a84f576752dfb8bad.jpg [运行时间：0.087688s][吞吐率：11.40req/s] [内存消耗：1,612.93kb] [文件加载：44]
+[ info ] [ LANG ] E:\xampp\htdocs\blog\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'uploads',
+    2 => '20180224',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.adgzs.top',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://www.adgzs.top/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__cfduid=dff3ce406800f1996f1ecf279703c6d4e1558492825; UM_distinctid=16add780dc6c0-0c0a00978979ee-5d4e211f-c0000-16add780dc716b; CNZZDATA1257137757=248594716-1558488991-%7C1558522912; Hm_lvt_136bd7aac0d158dec628add4b8dd4c3a=1558423559,1558636392; Hm_lpvt_136bd7aac0d158dec628add4b8dd4c3a=1558918032; style=qingshuang; PHPSESSID=73f7j5cfr355jib9mt88fsibbc; __qc_wId=511; pgv_pvid=8616528835; __qc__k=; we7install_cdn_source_size=20227410; OzJ2___session=3eb3QhAE5Psf%2Fg9jZxetv3G%2BL8HQWxC66d%2FtlOfy%2B3Qn%2B5l4EQG1u5b1YqhbDdDnG6le3w7F1TxZNM5dpm9d4umaE95h6WEjAofm9rZijVztC3oWG7U7ST4a1WT9Ovkorc3c3eO7ZDg7Gfzz3wQ; we7install_accesstoken=%7B%22accessToken%22%3A%22kSDctJzZ3s3Trg1IOkO3cbCso4TeK3iG3o13Me3odOMCcoITDcms3oDrM1cUGOJc%22%2C%22expireTime%22%3A1559038051%7D; Tk9U___session=65a4x%2B%2B9ws06mEynZ%2FX%2FAHNuNFuMYHULO9QeU3D6HvvAE3v80Z11w%2Bzx5TBTxvF8fMKUxWm337t5az0SIDQUYV%2Ft427%2BRyloT2SA7mv0PJUjNaujB8zLdn39ltiAl4fvaJxAtXjPynmJ76ogLQ; Tk9U___lastvisit_1=%2Chttp%3A//www.adgzs.top/web/index.php%3Fc%3Dsystem%26a%3Dsite; Tk9U_jsMenuScroll=; OzJ2___lastvisit_1=%2Chttp%3A//www.adgzs.top/web/index.php%3Fc%3Dcloud%26a%3Dsms; OzJ2_jsMenuScroll=',
+)
+[ info ] [ PARAM ] array (
+  '/uploads/20180224/e05b5a98dca16a9a84f576752dfb8bad_jpg' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-05-28T22:54:05+08:00 ] 127.0.0.1 127.0.0.1 GET /user/reg.html
+[ info ] www.adgzs.top/user/reg.html [运行时间：0.285798s][吞吐率：3.50req/s] [内存消耗：3,061.41kb] [文件加载：61]
+[ info ] [ LANG ] E:\xampp\htdocs\blog\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'reg',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.adgzs.top',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.adgzs.top/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__cfduid=dff3ce406800f1996f1ecf279703c6d4e1558492825; UM_distinctid=16add780dc6c0-0c0a00978979ee-5d4e211f-c0000-16add780dc716b; CNZZDATA1257137757=248594716-1558488991-%7C1558522912; Hm_lvt_136bd7aac0d158dec628add4b8dd4c3a=1558423559,1558636392; Hm_lpvt_136bd7aac0d158dec628add4b8dd4c3a=1558918032; style=qingshuang; PHPSESSID=73f7j5cfr355jib9mt88fsibbc; __qc_wId=511; pgv_pvid=8616528835; __qc__k=; we7install_cdn_source_size=20227410; OzJ2___session=3eb3QhAE5Psf%2Fg9jZxetv3G%2BL8HQWxC66d%2FtlOfy%2B3Qn%2B5l4EQG1u5b1YqhbDdDnG6le3w7F1TxZNM5dpm9d4umaE95h6WEjAofm9rZijVztC3oWG7U7ST4a1WT9Ovkorc3c3eO7ZDg7Gfzz3wQ; we7install_accesstoken=%7B%22accessToken%22%3A%22kSDctJzZ3s3Trg1IOkO3cbCso4TeK3iG3o13Me3odOMCcoITDcms3oDrM1cUGOJc%22%2C%22expireTime%22%3A1559038051%7D; Tk9U___session=65a4x%2B%2B9ws06mEynZ%2FX%2FAHNuNFuMYHULO9QeU3D6HvvAE3v80Z11w%2Bzx5TBTxvF8fMKUxWm337t5az0SIDQUYV%2Ft427%2BRyloT2SA7mv0PJUjNaujB8zLdn39ltiAl4fvaJxAtXjPynmJ76ogLQ; Tk9U___lastvisit_1=%2Chttp%3A//www.adgzs.top/web/index.php%3Fc%3Dsystem%26a%3Dsite; Tk9U_jsMenuScroll=; OzJ2___lastvisit_1=%2Chttp%3A//www.adgzs.top/web/index.php%3Fc%3Dcloud%26a%3Dsms; OzJ2_jsMenuScroll=',
+)
+[ info ] [ PARAM ] array (
+  '/user/reg_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Login->reg[ E:\xampp\htdocs\blog\application\index\controller\Login.php ]
+[ info ] [ VIEW ] ./template/default/login_reg.html [ array (
+  0 => 'tptop',
+  1 => 'tptops',
+  2 => 'tptuser',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-05-28T22:54:45+08:00 ] 127.0.0.1 127.0.0.1 POST /user/reg.html
+[ info ] www.adgzs.top/user/reg.html [运行时间：0.228442s][吞吐率：4.38req/s] [内存消耗：2,827.83kb] [文件加载：57]
+[ info ] [ LANG ] E:\xampp\htdocs\blog\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'reg',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.adgzs.top',
+  'connection' => 'keep-alive',
+  'content-length' => '82',
+  'accept' => '*/*',
+  'origin' => 'http://www.adgzs.top',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.adgzs.top/user/reg.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__cfduid=dff3ce406800f1996f1ecf279703c6d4e1558492825; UM_distinctid=16add780dc6c0-0c0a00978979ee-5d4e211f-c0000-16add780dc716b; CNZZDATA1257137757=248594716-1558488991-%7C1558522912; Hm_lvt_136bd7aac0d158dec628add4b8dd4c3a=1558423559,1558636392; Hm_lpvt_136bd7aac0d158dec628add4b8dd4c3a=1558918032; style=qingshuang; PHPSESSID=73f7j5cfr355jib9mt88fsibbc; __qc_wId=511; pgv_pvid=8616528835; __qc__k=; we7install_cdn_source_size=20227410; OzJ2___session=3eb3QhAE5Psf%2Fg9jZxetv3G%2BL8HQWxC66d%2FtlOfy%2B3Qn%2B5l4EQG1u5b1YqhbDdDnG6le3w7F1TxZNM5dpm9d4umaE95h6WEjAofm9rZijVztC3oWG7U7ST4a1WT9Ovkorc3c3eO7ZDg7Gfzz3wQ; we7install_accesstoken=%7B%22accessToken%22%3A%22kSDctJzZ3s3Trg1IOkO3cbCso4TeK3iG3o13Me3odOMCcoITDcms3oDrM1cUGOJc%22%2C%22expireTime%22%3A1559038051%7D; Tk9U___session=65a4x%2B%2B9ws06mEynZ%2FX%2FAHNuNFuMYHULO9QeU3D6HvvAE3v80Z11w%2Bzx5TBTxvF8fMKUxWm337t5az0SIDQUYV%2Ft427%2BRyloT2SA7mv0PJUjNaujB8zLdn39ltiAl4fvaJxAtXjPynmJ76ogLQ; Tk9U___lastvisit_1=%2Chttp%3A//www.adgzs.top/web/index.php%3Fc%3Dsystem%26a%3Dsite; Tk9U_jsMenuScroll=; OzJ2___lastvisit_1=%2Chttp%3A//www.adgzs.top/web/index.php%3Fc%3Dcloud%26a%3Dsms; OzJ2_jsMenuScroll=',
+)
+[ info ] [ PARAM ] array (
+  '/user/reg_html' => '',
+  'usermail' => '180045777@qq.com',
+  'username' => 'shijiaqu',
+  'password' => 'shijiaqu',
+  'passwords' => 'shijiaqu',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Login->reg[ E:\xampp\htdocs\blog\application\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-05-28T22:54:46+08:00 ] 127.0.0.1 127.0.0.1 GET /user/login.html
+[ info ] www.adgzs.top/user/login.html [运行时间：0.200625s][吞吐率：4.98req/s] [内存消耗：2,826.46kb] [文件加载：59]
+[ info ] [ LANG ] E:\xampp\htdocs\blog\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.adgzs.top',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.adgzs.top/user/reg.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__cfduid=dff3ce406800f1996f1ecf279703c6d4e1558492825; UM_distinctid=16add780dc6c0-0c0a00978979ee-5d4e211f-c0000-16add780dc716b; CNZZDATA1257137757=248594716-1558488991-%7C1558522912; Hm_lvt_136bd7aac0d158dec628add4b8dd4c3a=1558423559,1558636392; Hm_lpvt_136bd7aac0d158dec628add4b8dd4c3a=1558918032; style=qingshuang; PHPSESSID=73f7j5cfr355jib9mt88fsibbc; __qc_wId=511; pgv_pvid=8616528835; __qc__k=; we7install_cdn_source_size=20227410; OzJ2___session=3eb3QhAE5Psf%2Fg9jZxetv3G%2BL8HQWxC66d%2FtlOfy%2B3Qn%2B5l4EQG1u5b1YqhbDdDnG6le3w7F1TxZNM5dpm9d4umaE95h6WEjAofm9rZijVztC3oWG7U7ST4a1WT9Ovkorc3c3eO7ZDg7Gfzz3wQ; we7install_accesstoken=%7B%22accessToken%22%3A%22kSDctJzZ3s3Trg1IOkO3cbCso4TeK3iG3o13Me3odOMCcoITDcms3oDrM1cUGOJc%22%2C%22expireTime%22%3A1559038051%7D; Tk9U___session=65a4x%2B%2B9ws06mEynZ%2FX%2FAHNuNFuMYHULO9QeU3D6HvvAE3v80Z11w%2Bzx5TBTxvF8fMKUxWm337t5az0SIDQUYV%2Ft427%2BRyloT2SA7mv0PJUjNaujB8zLdn39ltiAl4fvaJxAtXjPynmJ76ogLQ; Tk9U___lastvisit_1=%2Chttp%3A//www.adgzs.top/web/index.php%3Fc%3Dsystem%26a%3Dsite; Tk9U_jsMenuScroll=; OzJ2___lastvisit_1=%2Chttp%3A//www.adgzs.top/web/index.php%3Fc%3Dcloud%26a%3Dsms; OzJ2_jsMenuScroll=',
+)
+[ info ] [ PARAM ] array (
+  '/user/login_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ E:\xampp\htdocs\blog\application\index\controller\Login.php ]
+[ info ] [ VIEW ] ./template/default/login_index.html [ array (
+  0 => 'tptop',
+  1 => 'tptops',
+  2 => 'tptuser',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-05-28T23:36:28+08:00 ] 127.0.0.1 127.0.0.1 GET /user/qq.html
+[ info ] www.adgzs.top/user/qq.html [运行时间：0.283611s][吞吐率：3.53req/s] [内存消耗：2,802.92kb] [文件加载：59]
+[ info ] [ LANG ] E:\xampp\htdocs\blog\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'qq',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.adgzs.top',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.adgzs.top/user/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__cfduid=dff3ce406800f1996f1ecf279703c6d4e1558492825; UM_distinctid=16add780dc6c0-0c0a00978979ee-5d4e211f-c0000-16add780dc716b; CNZZDATA1257137757=248594716-1558488991-%7C1558522912; Hm_lvt_136bd7aac0d158dec628add4b8dd4c3a=1558423559,1558636392; Hm_lpvt_136bd7aac0d158dec628add4b8dd4c3a=1558918032; style=qingshuang; PHPSESSID=73f7j5cfr355jib9mt88fsibbc; __qc_wId=511; pgv_pvid=8616528835; __qc__k=; we7install_cdn_source_size=20227410; OzJ2___session=3eb3QhAE5Psf%2Fg9jZxetv3G%2BL8HQWxC66d%2FtlOfy%2B3Qn%2B5l4EQG1u5b1YqhbDdDnG6le3w7F1TxZNM5dpm9d4umaE95h6WEjAofm9rZijVztC3oWG7U7ST4a1WT9Ovkorc3c3eO7ZDg7Gfzz3wQ; we7install_accesstoken=%7B%22accessToken%22%3A%22kSDctJzZ3s3Trg1IOkO3cbCso4TeK3iG3o13Me3odOMCcoITDcms3oDrM1cUGOJc%22%2C%22expireTime%22%3A1559038051%7D; Tk9U___session=65a4x%2B%2B9ws06mEynZ%2FX%2FAHNuNFuMYHULO9QeU3D6HvvAE3v80Z11w%2Bzx5TBTxvF8fMKUxWm337t5az0SIDQUYV%2Ft427%2BRyloT2SA7mv0PJUjNaujB8zLdn39ltiAl4fvaJxAtXjPynmJ76ogLQ; Tk9U___lastvisit_1=%2Chttp%3A//www.adgzs.top/web/index.php%3Fc%3Dsystem%26a%3Dsite; Tk9U_jsMenuScroll=; OzJ2___lastvisit_1=%2Chttp%3A//www.adgzs.top/web/index.php%3Fc%3Dcloud%26a%3Dsms; OzJ2_jsMenuScroll=',
+)
+[ info ] [ PARAM ] array (
+  '/user/qq_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Login->qq[ E:\xampp\htdocs\blog\application\index\controller\Login.php ]
+[ info ] [ VIEW ] ./template/default/login_qq.html [ array (
+  0 => 'tptop',
+  1 => 'tptops',
+  2 => 'tptuser',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-05-28T23:36:45+08:00 ] 127.0.0.1 127.0.0.1 GET /user/qq.html?
+[ info ] www.adgzs.top/user/qq.html? [运行时间：0.143681s][吞吐率：6.96req/s] [内存消耗：2,674.36kb] [文件加载：57]
+[ info ] [ LANG ] E:\xampp\htdocs\blog\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'qq',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.adgzs.top',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__cfduid=dff3ce406800f1996f1ecf279703c6d4e1558492825; UM_distinctid=16add780dc6c0-0c0a00978979ee-5d4e211f-c0000-16add780dc716b; CNZZDATA1257137757=248594716-1558488991-%7C1558522912; Hm_lvt_136bd7aac0d158dec628add4b8dd4c3a=1558423559,1558636392; Hm_lpvt_136bd7aac0d158dec628add4b8dd4c3a=1558918032; style=qingshuang; PHPSESSID=73f7j5cfr355jib9mt88fsibbc; __qc_wId=511; pgv_pvid=8616528835; __qc__k=; we7install_cdn_source_size=20227410; OzJ2___session=3eb3QhAE5Psf%2Fg9jZxetv3G%2BL8HQWxC66d%2FtlOfy%2B3Qn%2B5l4EQG1u5b1YqhbDdDnG6le3w7F1TxZNM5dpm9d4umaE95h6WEjAofm9rZijVztC3oWG7U7ST4a1WT9Ovkorc3c3eO7ZDg7Gfzz3wQ; we7install_accesstoken=%7B%22accessToken%22%3A%22kSDctJzZ3s3Trg1IOkO3cbCso4TeK3iG3o13Me3odOMCcoITDcms3oDrM1cUGOJc%22%2C%22expireTime%22%3A1559038051%7D; Tk9U___session=65a4x%2B%2B9ws06mEynZ%2FX%2FAHNuNFuMYHULO9QeU3D6HvvAE3v80Z11w%2Bzx5TBTxvF8fMKUxWm337t5az0SIDQUYV%2Ft427%2BRyloT2SA7mv0PJUjNaujB8zLdn39ltiAl4fvaJxAtXjPynmJ76ogLQ; Tk9U___lastvisit_1=%2Chttp%3A//www.adgzs.top/web/index.php%3Fc%3Dsystem%26a%3Dsite; Tk9U_jsMenuScroll=; OzJ2___lastvisit_1=%2Chttp%3A//www.adgzs.top/web/index.php%3Fc%3Dcloud%26a%3Dsms; OzJ2_jsMenuScroll=',
+)
+[ info ] [ PARAM ] array (
+  '/user/qq_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Login->qq[ E:\xampp\htdocs\blog\application\index\controller\Login.php ]
+[ info ] [ VIEW ] ./template/default/login_qq.html [ array (
+  0 => 'tptop',
+  1 => 'tptops',
+  2 => 'tptuser',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-05-28T23:36:46+08:00 ] 127.0.0.1 127.0.0.1 POST /login/loginqq.html
+[ info ] www.adgzs.top/login/loginqq.html [运行时间：0.342864s][吞吐率：2.92req/s] [内存消耗：2,880.55kb] [文件加载：60]
+[ info ] [ LANG ] E:\xampp\htdocs\blog\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'loginqq',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.adgzs.top',
+  'connection' => 'keep-alive',
+  'content-length' => '248',
+  'accept' => '*/*',
+  'origin' => 'http://www.adgzs.top',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.adgzs.top/user/qq.html?',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__cfduid=dff3ce406800f1996f1ecf279703c6d4e1558492825; UM_distinctid=16add780dc6c0-0c0a00978979ee-5d4e211f-c0000-16add780dc716b; CNZZDATA1257137757=248594716-1558488991-%7C1558522912; Hm_lvt_136bd7aac0d158dec628add4b8dd4c3a=1558423559,1558636392; Hm_lpvt_136bd7aac0d158dec628add4b8dd4c3a=1558918032; style=qingshuang; PHPSESSID=73f7j5cfr355jib9mt88fsibbc; __qc_wId=511; pgv_pvid=8616528835; we7install_cdn_source_size=20227410; OzJ2___session=3eb3QhAE5Psf%2Fg9jZxetv3G%2BL8HQWxC66d%2FtlOfy%2B3Qn%2B5l4EQG1u5b1YqhbDdDnG6le3w7F1TxZNM5dpm9d4umaE95h6WEjAofm9rZijVztC3oWG7U7ST4a1WT9Ovkorc3c3eO7ZDg7Gfzz3wQ; we7install_accesstoken=%7B%22accessToken%22%3A%22kSDctJzZ3s3Trg1IOkO3cbCso4TeK3iG3o13Me3odOMCcoITDcms3oDrM1cUGOJc%22%2C%22expireTime%22%3A1559038051%7D; Tk9U___session=65a4x%2B%2B9ws06mEynZ%2FX%2FAHNuNFuMYHULO9QeU3D6HvvAE3v80Z11w%2Bzx5TBTxvF8fMKUxWm337t5az0SIDQUYV%2Ft427%2BRyloT2SA7mv0PJUjNaujB8zLdn39ltiAl4fvaJxAtXjPynmJ76ogLQ; Tk9U___lastvisit_1=%2Chttp%3A//www.adgzs.top/web/index.php%3Fc%3Dsystem%26a%3Dsite; Tk9U_jsMenuScroll=; OzJ2___lastvisit_1=%2Chttp%3A//www.adgzs.top/web/index.php%3Fc%3Dcloud%26a%3Dsms; OzJ2_jsMenuScroll=; __qc__k=TC_MK=EB35DF35ACF134C5BA2D9A0AFB9E57FA',
+)
+[ info ] [ PARAM ] array (
+  '/login/loginqq_html' => '',
+  'openid' => '7C699E89274BC0FFE5D4DE1FB68CC176',
+  'username' => 'え本宫ぇ亦ぁ如初心ざ',
+  'userhead' => 'http://thirdqq.qlogo.cn/g?b=oidb&amp;k=9fhLQH9BsZzdQia6SiaJT2WQ&amp;s=100',
+  'sex' => '女',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Login->loginqq[ E:\xampp\htdocs\blog\application\index\controller\Login.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-05-28T23:36:46+08:00 ] 127.0.0.1 127.0.0.1 GET /user/login.html
+[ info ] www.adgzs.top/user/login.html [运行时间：0.121373s][吞吐率：8.24req/s] [内存消耗：2,617.09kb] [文件加载：54]
+[ info ] [ LANG ] E:\xampp\htdocs\blog\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.adgzs.top',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.adgzs.top/user/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__cfduid=dff3ce406800f1996f1ecf279703c6d4e1558492825; UM_distinctid=16add780dc6c0-0c0a00978979ee-5d4e211f-c0000-16add780dc716b; CNZZDATA1257137757=248594716-1558488991-%7C1558522912; Hm_lvt_136bd7aac0d158dec628add4b8dd4c3a=1558423559,1558636392; Hm_lpvt_136bd7aac0d158dec628add4b8dd4c3a=1558918032; style=qingshuang; PHPSESSID=73f7j5cfr355jib9mt88fsibbc; __qc_wId=511; pgv_pvid=8616528835; we7install_cdn_source_size=20227410; OzJ2___session=3eb3QhAE5Psf%2Fg9jZxetv3G%2BL8HQWxC66d%2FtlOfy%2B3Qn%2B5l4EQG1u5b1YqhbDdDnG6le3w7F1TxZNM5dpm9d4umaE95h6WEjAofm9rZijVztC3oWG7U7ST4a1WT9Ovkorc3c3eO7ZDg7Gfzz3wQ; we7install_accesstoken=%7B%22accessToken%22%3A%22kSDctJzZ3s3Trg1IOkO3cbCso4TeK3iG3o13Me3odOMCcoITDcms3oDrM1cUGOJc%22%2C%22expireTime%22%3A1559038051%7D; Tk9U___session=65a4x%2B%2B9ws06mEynZ%2FX%2FAHNuNFuMYHULO9QeU3D6HvvAE3v80Z11w%2Bzx5TBTxvF8fMKUxWm337t5az0SIDQUYV%2Ft427%2BRyloT2SA7mv0PJUjNaujB8zLdn39ltiAl4fvaJxAtXjPynmJ76ogLQ; Tk9U___lastvisit_1=%2Chttp%3A//www.adgzs.top/web/index.php%3Fc%3Dsystem%26a%3Dsite; Tk9U_jsMenuScroll=; OzJ2___lastvisit_1=%2Chttp%3A//www.adgzs.top/web/index.php%3Fc%3Dcloud%26a%3Dsms; OzJ2_jsMenuScroll=; __qc__k=',
+)
+[ info ] [ PARAM ] array (
+  '/user/login_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ E:\xampp\htdocs\blog\application\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-05-28T23:37:02+08:00 ] 127.0.0.1 127.0.0.1 GET /user/login.html
+[ info ] www.adgzs.top/user/login.html [运行时间：0.142491s][吞吐率：7.02req/s] [内存消耗：2,617.09kb] [文件加载：54]
+[ info ] [ LANG ] E:\xampp\htdocs\blog\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.adgzs.top',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.adgzs.top/user/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__cfduid=dff3ce406800f1996f1ecf279703c6d4e1558492825; UM_distinctid=16add780dc6c0-0c0a00978979ee-5d4e211f-c0000-16add780dc716b; CNZZDATA1257137757=248594716-1558488991-%7C1558522912; Hm_lvt_136bd7aac0d158dec628add4b8dd4c3a=1558423559,1558636392; Hm_lpvt_136bd7aac0d158dec628add4b8dd4c3a=1558918032; style=qingshuang; PHPSESSID=73f7j5cfr355jib9mt88fsibbc; __qc_wId=511; pgv_pvid=8616528835; we7install_cdn_source_size=20227410; OzJ2___session=3eb3QhAE5Psf%2Fg9jZxetv3G%2BL8HQWxC66d%2FtlOfy%2B3Qn%2B5l4EQG1u5b1YqhbDdDnG6le3w7F1TxZNM5dpm9d4umaE95h6WEjAofm9rZijVztC3oWG7U7ST4a1WT9Ovkorc3c3eO7ZDg7Gfzz3wQ; we7install_accesstoken=%7B%22accessToken%22%3A%22kSDctJzZ3s3Trg1IOkO3cbCso4TeK3iG3o13Me3odOMCcoITDcms3oDrM1cUGOJc%22%2C%22expireTime%22%3A1559038051%7D; Tk9U___session=65a4x%2B%2B9ws06mEynZ%2FX%2FAHNuNFuMYHULO9QeU3D6HvvAE3v80Z11w%2Bzx5TBTxvF8fMKUxWm337t5az0SIDQUYV%2Ft427%2BRyloT2SA7mv0PJUjNaujB8zLdn39ltiAl4fvaJxAtXjPynmJ76ogLQ; Tk9U___lastvisit_1=%2Chttp%3A//www.adgzs.top/web/index.php%3Fc%3Dsystem%26a%3Dsite; Tk9U_jsMenuScroll=; OzJ2___lastvisit_1=%2Chttp%3A//www.adgzs.top/web/index.php%3Fc%3Dcloud%26a%3Dsms; OzJ2_jsMenuScroll=; __qc__k=',
+)
+[ info ] [ PARAM ] array (
+  '/user/login_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ E:\xampp\htdocs\blog\application\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-05-28T23:37:04+08:00 ] 127.0.0.1 127.0.0.1 GET /user/login.html
+[ info ] www.adgzs.top/user/login.html [运行时间：0.143685s][吞吐率：6.96req/s] [内存消耗：2,617.09kb] [文件加载：54]
+[ info ] [ LANG ] E:\xampp\htdocs\blog\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.adgzs.top',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.adgzs.top/user/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__cfduid=dff3ce406800f1996f1ecf279703c6d4e1558492825; UM_distinctid=16add780dc6c0-0c0a00978979ee-5d4e211f-c0000-16add780dc716b; CNZZDATA1257137757=248594716-1558488991-%7C1558522912; Hm_lvt_136bd7aac0d158dec628add4b8dd4c3a=1558423559,1558636392; Hm_lpvt_136bd7aac0d158dec628add4b8dd4c3a=1558918032; style=qingshuang; PHPSESSID=73f7j5cfr355jib9mt88fsibbc; __qc_wId=511; pgv_pvid=8616528835; we7install_cdn_source_size=20227410; OzJ2___session=3eb3QhAE5Psf%2Fg9jZxetv3G%2BL8HQWxC66d%2FtlOfy%2B3Qn%2B5l4EQG1u5b1YqhbDdDnG6le3w7F1TxZNM5dpm9d4umaE95h6WEjAofm9rZijVztC3oWG7U7ST4a1WT9Ovkorc3c3eO7ZDg7Gfzz3wQ; we7install_accesstoken=%7B%22accessToken%22%3A%22kSDctJzZ3s3Trg1IOkO3cbCso4TeK3iG3o13Me3odOMCcoITDcms3oDrM1cUGOJc%22%2C%22expireTime%22%3A1559038051%7D; Tk9U___session=65a4x%2B%2B9ws06mEynZ%2FX%2FAHNuNFuMYHULO9QeU3D6HvvAE3v80Z11w%2Bzx5TBTxvF8fMKUxWm337t5az0SIDQUYV%2Ft427%2BRyloT2SA7mv0PJUjNaujB8zLdn39ltiAl4fvaJxAtXjPynmJ76ogLQ; Tk9U___lastvisit_1=%2Chttp%3A//www.adgzs.top/web/index.php%3Fc%3Dsystem%26a%3Dsite; Tk9U_jsMenuScroll=; OzJ2___lastvisit_1=%2Chttp%3A//www.adgzs.top/web/index.php%3Fc%3Dcloud%26a%3Dsms; OzJ2_jsMenuScroll=; __qc__k=',
+)
+[ info ] [ PARAM ] array (
+  '/user/login_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ E:\xampp\htdocs\blog\application\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-05-28T23:37:05+08:00 ] 127.0.0.1 127.0.0.1 GET /user/login.html
+[ info ] www.adgzs.top/user/login.html [运行时间：0.180156s][吞吐率：5.55req/s] [内存消耗：2,617.02kb] [文件加载：54]
+[ info ] [ LANG ] E:\xampp\htdocs\blog\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.adgzs.top',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.adgzs.top/user/reg.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__cfduid=dff3ce406800f1996f1ecf279703c6d4e1558492825; UM_distinctid=16add780dc6c0-0c0a00978979ee-5d4e211f-c0000-16add780dc716b; CNZZDATA1257137757=248594716-1558488991-%7C1558522912; Hm_lvt_136bd7aac0d158dec628add4b8dd4c3a=1558423559,1558636392; Hm_lpvt_136bd7aac0d158dec628add4b8dd4c3a=1558918032; style=qingshuang; PHPSESSID=73f7j5cfr355jib9mt88fsibbc; __qc_wId=511; pgv_pvid=8616528835; we7install_cdn_source_size=20227410; OzJ2___session=3eb3QhAE5Psf%2Fg9jZxetv3G%2BL8HQWxC66d%2FtlOfy%2B3Qn%2B5l4EQG1u5b1YqhbDdDnG6le3w7F1TxZNM5dpm9d4umaE95h6WEjAofm9rZijVztC3oWG7U7ST4a1WT9Ovkorc3c3eO7ZDg7Gfzz3wQ; we7install_accesstoken=%7B%22accessToken%22%3A%22kSDctJzZ3s3Trg1IOkO3cbCso4TeK3iG3o13Me3odOMCcoITDcms3oDrM1cUGOJc%22%2C%22expireTime%22%3A1559038051%7D; Tk9U___session=65a4x%2B%2B9ws06mEynZ%2FX%2FAHNuNFuMYHULO9QeU3D6HvvAE3v80Z11w%2Bzx5TBTxvF8fMKUxWm337t5az0SIDQUYV%2Ft427%2BRyloT2SA7mv0PJUjNaujB8zLdn39ltiAl4fvaJxAtXjPynmJ76ogLQ; Tk9U___lastvisit_1=%2Chttp%3A//www.adgzs.top/web/index.php%3Fc%3Dsystem%26a%3Dsite; Tk9U_jsMenuScroll=; OzJ2___lastvisit_1=%2Chttp%3A//www.adgzs.top/web/index.php%3Fc%3Dcloud%26a%3Dsms; OzJ2_jsMenuScroll=; __qc__k=',
+)
+[ info ] [ PARAM ] array (
+  '/user/login_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ E:\xampp\htdocs\blog\application\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-05-28T23:37:08+08:00 ] 127.0.0.1 127.0.0.1 GET /user/reg.html
+[ info ] www.adgzs.top/user/reg.html [运行时间：0.124134s][吞吐率：8.06req/s] [内存消耗：2,616.97kb] [文件加载：54]
+[ info ] [ LANG ] E:\xampp\htdocs\blog\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'reg',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.adgzs.top',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.adgzs.top/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__cfduid=dff3ce406800f1996f1ecf279703c6d4e1558492825; UM_distinctid=16add780dc6c0-0c0a00978979ee-5d4e211f-c0000-16add780dc716b; CNZZDATA1257137757=248594716-1558488991-%7C1558522912; Hm_lvt_136bd7aac0d158dec628add4b8dd4c3a=1558423559,1558636392; Hm_lpvt_136bd7aac0d158dec628add4b8dd4c3a=1558918032; style=qingshuang; PHPSESSID=73f7j5cfr355jib9mt88fsibbc; __qc_wId=511; pgv_pvid=8616528835; we7install_cdn_source_size=20227410; OzJ2___session=3eb3QhAE5Psf%2Fg9jZxetv3G%2BL8HQWxC66d%2FtlOfy%2B3Qn%2B5l4EQG1u5b1YqhbDdDnG6le3w7F1TxZNM5dpm9d4umaE95h6WEjAofm9rZijVztC3oWG7U7ST4a1WT9Ovkorc3c3eO7ZDg7Gfzz3wQ; we7install_accesstoken=%7B%22accessToken%22%3A%22kSDctJzZ3s3Trg1IOkO3cbCso4TeK3iG3o13Me3odOMCcoITDcms3oDrM1cUGOJc%22%2C%22expireTime%22%3A1559038051%7D; Tk9U___session=65a4x%2B%2B9ws06mEynZ%2FX%2FAHNuNFuMYHULO9QeU3D6HvvAE3v80Z11w%2Bzx5TBTxvF8fMKUxWm337t5az0SIDQUYV%2Ft427%2BRyloT2SA7mv0PJUjNaujB8zLdn39ltiAl4fvaJxAtXjPynmJ76ogLQ; Tk9U___lastvisit_1=%2Chttp%3A//www.adgzs.top/web/index.php%3Fc%3Dsystem%26a%3Dsite; Tk9U_jsMenuScroll=; OzJ2___lastvisit_1=%2Chttp%3A//www.adgzs.top/web/index.php%3Fc%3Dcloud%26a%3Dsms; OzJ2_jsMenuScroll=; __qc__k=',
+)
+[ info ] [ PARAM ] array (
+  '/user/reg_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Login->reg[ E:\xampp\htdocs\blog\application\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-05-28T23:37:09+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] www.adgzs.top/ [运行时间：0.319796s][吞吐率：3.13req/s] [内存消耗：2,928.23kb] [文件加载：60]
+[ info ] [ LANG ] E:\xampp\htdocs\blog\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.adgzs.top',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.adgzs.top/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__cfduid=dff3ce406800f1996f1ecf279703c6d4e1558492825; UM_distinctid=16add780dc6c0-0c0a00978979ee-5d4e211f-c0000-16add780dc716b; CNZZDATA1257137757=248594716-1558488991-%7C1558522912; Hm_lvt_136bd7aac0d158dec628add4b8dd4c3a=1558423559,1558636392; Hm_lpvt_136bd7aac0d158dec628add4b8dd4c3a=1558918032; style=qingshuang; PHPSESSID=73f7j5cfr355jib9mt88fsibbc; __qc_wId=511; pgv_pvid=8616528835; we7install_cdn_source_size=20227410; OzJ2___session=3eb3QhAE5Psf%2Fg9jZxetv3G%2BL8HQWxC66d%2FtlOfy%2B3Qn%2B5l4EQG1u5b1YqhbDdDnG6le3w7F1TxZNM5dpm9d4umaE95h6WEjAofm9rZijVztC3oWG7U7ST4a1WT9Ovkorc3c3eO7ZDg7Gfzz3wQ; we7install_accesstoken=%7B%22accessToken%22%3A%22kSDctJzZ3s3Trg1IOkO3cbCso4TeK3iG3o13Me3odOMCcoITDcms3oDrM1cUGOJc%22%2C%22expireTime%22%3A1559038051%7D; Tk9U___session=65a4x%2B%2B9ws06mEynZ%2FX%2FAHNuNFuMYHULO9QeU3D6HvvAE3v80Z11w%2Bzx5TBTxvF8fMKUxWm337t5az0SIDQUYV%2Ft427%2BRyloT2SA7mv0PJUjNaujB8zLdn39ltiAl4fvaJxAtXjPynmJ76ogLQ; Tk9U___lastvisit_1=%2Chttp%3A//www.adgzs.top/web/index.php%3Fc%3Dsystem%26a%3Dsite; Tk9U_jsMenuScroll=; OzJ2___lastvisit_1=%2Chttp%3A//www.adgzs.top/web/index.php%3Fc%3Dcloud%26a%3Dsms; OzJ2_jsMenuScroll=; __qc__k=',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\xampp\htdocs\blog\application\index\controller\Index.php ]
+[ info ] [ VIEW ] ./template/default/index_index.html [ array (
+  0 => 'tptca',
+  1 => 'tptcm',
+  2 => 'tptcc',
+  3 => 'tptm',
+  4 => 'tptl',
+  5 => 'tpte',
+  6 => 'tptf',
+  7 => 'tptb',
+  8 => 'tagss',
+  9 => 'tptop',
+  10 => 'tptops',
+  11 => 'tptuser',
+  12 => 'tptc',
+  13 => 'tptcs',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-05-28T23:37:11+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] www.adgzs.top/ [运行时间：0.291355s][吞吐率：3.43req/s] [内存消耗：2,928.88kb] [文件加载：60]
+[ info ] [ LANG ] E:\xampp\htdocs\blog\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.adgzs.top',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.adgzs.top/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__cfduid=dff3ce406800f1996f1ecf279703c6d4e1558492825; UM_distinctid=16add780dc6c0-0c0a00978979ee-5d4e211f-c0000-16add780dc716b; CNZZDATA1257137757=248594716-1558488991-%7C1558522912; Hm_lvt_136bd7aac0d158dec628add4b8dd4c3a=1558423559,1558636392; Hm_lpvt_136bd7aac0d158dec628add4b8dd4c3a=1558918032; style=qingshuang; PHPSESSID=73f7j5cfr355jib9mt88fsibbc; __qc_wId=511; pgv_pvid=8616528835; we7install_cdn_source_size=20227410; OzJ2___session=3eb3QhAE5Psf%2Fg9jZxetv3G%2BL8HQWxC66d%2FtlOfy%2B3Qn%2B5l4EQG1u5b1YqhbDdDnG6le3w7F1TxZNM5dpm9d4umaE95h6WEjAofm9rZijVztC3oWG7U7ST4a1WT9Ovkorc3c3eO7ZDg7Gfzz3wQ; we7install_accesstoken=%7B%22accessToken%22%3A%22kSDctJzZ3s3Trg1IOkO3cbCso4TeK3iG3o13Me3odOMCcoITDcms3oDrM1cUGOJc%22%2C%22expireTime%22%3A1559038051%7D; Tk9U___session=65a4x%2B%2B9ws06mEynZ%2FX%2FAHNuNFuMYHULO9QeU3D6HvvAE3v80Z11w%2Bzx5TBTxvF8fMKUxWm337t5az0SIDQUYV%2Ft427%2BRyloT2SA7mv0PJUjNaujB8zLdn39ltiAl4fvaJxAtXjPynmJ76ogLQ; Tk9U___lastvisit_1=%2Chttp%3A//www.adgzs.top/web/index.php%3Fc%3Dsystem%26a%3Dsite; Tk9U_jsMenuScroll=; OzJ2___lastvisit_1=%2Chttp%3A//www.adgzs.top/web/index.php%3Fc%3Dcloud%26a%3Dsms; OzJ2_jsMenuScroll=; __qc__k=',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\xampp\htdocs\blog\application\index\controller\Index.php ]
+[ info ] [ VIEW ] ./template/default/index_index.html [ array (
+  0 => 'tptca',
+  1 => 'tptcm',
+  2 => 'tptcc',
+  3 => 'tptm',
+  4 => 'tptl',
+  5 => 'tpte',
+  6 => 'tptf',
+  7 => 'tptb',
+  8 => 'tagss',
+  9 => 'tptop',
+  10 => 'tptops',
+  11 => 'tptuser',
+  12 => 'tptc',
+  13 => 'tptcs',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-05-28T23:37:12+08:00 ] 127.0.0.1 127.0.0.1 GET /uploads/20180224/e05b5a98dca16a9a84f576752dfb8bad.jpg
+[ info ] www.adgzs.top/uploads/20180224/e05b5a98dca16a9a84f576752dfb8bad.jpg [运行时间：0.077566s][吞吐率：12.89req/s] [内存消耗：1,613.00kb] [文件加载：44]
+[ info ] [ LANG ] E:\xampp\htdocs\blog\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'uploads',
+    2 => '20180224',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.adgzs.top',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://www.adgzs.top/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__cfduid=dff3ce406800f1996f1ecf279703c6d4e1558492825; UM_distinctid=16add780dc6c0-0c0a00978979ee-5d4e211f-c0000-16add780dc716b; CNZZDATA1257137757=248594716-1558488991-%7C1558522912; Hm_lvt_136bd7aac0d158dec628add4b8dd4c3a=1558423559,1558636392; Hm_lpvt_136bd7aac0d158dec628add4b8dd4c3a=1558918032; style=qingshuang; PHPSESSID=73f7j5cfr355jib9mt88fsibbc; __qc_wId=511; pgv_pvid=8616528835; we7install_cdn_source_size=20227410; OzJ2___session=3eb3QhAE5Psf%2Fg9jZxetv3G%2BL8HQWxC66d%2FtlOfy%2B3Qn%2B5l4EQG1u5b1YqhbDdDnG6le3w7F1TxZNM5dpm9d4umaE95h6WEjAofm9rZijVztC3oWG7U7ST4a1WT9Ovkorc3c3eO7ZDg7Gfzz3wQ; we7install_accesstoken=%7B%22accessToken%22%3A%22kSDctJzZ3s3Trg1IOkO3cbCso4TeK3iG3o13Me3odOMCcoITDcms3oDrM1cUGOJc%22%2C%22expireTime%22%3A1559038051%7D; Tk9U___session=65a4x%2B%2B9ws06mEynZ%2FX%2FAHNuNFuMYHULO9QeU3D6HvvAE3v80Z11w%2Bzx5TBTxvF8fMKUxWm337t5az0SIDQUYV%2Ft427%2BRyloT2SA7mv0PJUjNaujB8zLdn39ltiAl4fvaJxAtXjPynmJ76ogLQ; Tk9U___lastvisit_1=%2Chttp%3A//www.adgzs.top/web/index.php%3Fc%3Dsystem%26a%3Dsite; Tk9U_jsMenuScroll=; OzJ2___lastvisit_1=%2Chttp%3A//www.adgzs.top/web/index.php%3Fc%3Dcloud%26a%3Dsms; OzJ2_jsMenuScroll=; __qc__k=',
+)
+[ info ] [ PARAM ] array (
+  '/uploads/20180224/e05b5a98dca16a9a84f576752dfb8bad_jpg' => '',
+)
+[ info ] [ LOG ] INIT File

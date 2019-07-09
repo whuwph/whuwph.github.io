@@ -1,0 +1,35 @@
+
+#tpt-heads{
+	background-color: #ffffff;
+	padding: 15px;
+}
+.tpt-heads h3{
+	color: #FF3300;
+	width: 90%;
+	
+}
+.tpt-list h3{
+	color: #FF3300;
+	width: 90%;
+}
+#border{
+		padding: 10px;
+		
+	}
+	.tpt-list-li{
+		background-color: #ffffff;
+		padding: 10px;
+	}
+	#border:hover{
+		border: 1px #FF3300 solid;
+	}
+	.class-with-tooltip{
+		color: #FF3300;
+	}
+.tpt-tip a{
+	color: #0000FF;
+	font-weight: 600;
+}
+.tpt-tip a:hover{
+	color: #FF3300;
+}

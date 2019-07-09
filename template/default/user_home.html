@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>  
+<title>{$tptm.username} - {:config('web.WEB_AUT')}</title>
+{include file="index/header"}
+<link rel="stylesheet" href="__HOME__/css/user.css">
+<style type="text/css">
+.tpt-header {margin-bottom: 0px;}
+</style>
+<div class="fly-home">
+<img src="{$tptm.userhead}" alt="{$tptm.username}">
+<h1>
+{$tptm.username}
+{if condition="$tptm.sex eq 1"} <i class="layui-icon icon-nan">&#xe662;</i>{else /} <i class="layui-icon icon-nv">&#xe661;</i>{/if}
+</h1>
+<p class="fly-home-info">
+<i class="layui-icon">&#xe735;</i><span style="color: #FF7200;">{$tptm.point}</span>
+<i class="layui-icon">&#xe60e;</i><span>{$tptm.usertime|date="Y-m-d",###} 加入</span>
+<i class="layui-icon">&#xe715;</i><span>{if condition="$tptm.userhome neq ''"}{$tptm.userhome}{else /}中国{/if}</span>
+</p>
+<p class="fly-home-sign">{if condition="$tptm.description neq ''"}（{$tptm.description}）{else /}（这个人懒得留下签名）{/if}</p>
+</div>
+<div class="tpt-wp main fly-home-main cl">
+<div class="layui-inline fly-home-jie tpt-md-2">
+<div class="fly-panel">
+<h3 class="fly-panel-title">{$tptm.username} 最近的内容</h3>
+<ul class="jie-row">
+{volist name="tptc" id="vo"}
+<li>
+<a href="__ROOT__/thread/{$vo.id}.html" class="jie-title">
+{$vo.title}
+</a>
+<em>{$vo.time|date="Y-m-d",###}</em>
+</li>
+{/volist}
+</ul>
+</div>
+</div>
+<div class="layui-inline fly-home-da tpt-md-2">
+<div class="fly-panel">
+<h3 class="fly-panel-title">{$tptm.username} 最近的评论</h3>
+<ul class="home-jieda">
+{volist name="tpte" id="vo"}
+<li>
+<p>
+<span>{$vo.time|date="Y-m-d",###}</span>
+在<a href="__ROOT__/thread/{$vo.fid}.html">{$vo.title}</a>中回答：
+</p>
+<div class="home-dacontent">
+{$vo.content|content_zh=0,60}...
+</div>
+</li>
+{/volist}
+</ul>
+</div>
+</div>
+</div>
+{include file="index/footer"}
+</body>
+</html>
